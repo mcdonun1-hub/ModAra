@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Package, Clock, CheckCircle, Truck, LogOut, Mail } from 'lucide-react';
-import { supabase, type Order } from '../lib/supabase';
+import { supabase, type Order, type OrderItem } from '../lib/supabase';
 import { useAuth } from '../context/AuthContext';
-import { formatPrice, formatDateTime } from '../lib/format';
+import { formatPrice, formatDateTime, asset } from '../lib/format';
 
 type AccountProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -119,11 +119,11 @@ export default function Account({ onNavigate }: AccountProps) {
 
                   {/* Order items */}
                   <div className="space-y-2 mb-4">
-                    {order.order_items?.map((item: any) => (
+                    {order.order_items?.map((item: OrderItem) => (
                       <div key={item.id} className="flex items-center gap-3 rounded-xl bg-dark-50 p-3">
                         <div className="h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-white">
                           <img
-                            src={item.product?.image_url || ''}
+                            src={asset(item.product?.image_url)}
                             alt={item.product?.name || ''}
                             className="h-full w-full object-cover"
                           />

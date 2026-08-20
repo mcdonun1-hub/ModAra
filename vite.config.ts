@@ -2,7 +2,11 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // The dev server always runs at "/", while the production build defaults to
+  // "/ModAra/" because GitHub Pages serves this repo under that sub path.
+  // Build with BASE_PATH=/ when deploying to a custom domain or root host.
+  base: command === 'build' ? process.env.BASE_PATH ?? '/ModAra/' : '/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
@@ -21,4 +25,4 @@ export default defineConfig({
     strictPort: true,
     allowedHosts: true,
   },
-});
+}));

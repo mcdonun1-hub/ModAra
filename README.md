@@ -49,3 +49,14 @@ VITE_SUPABASE_ANON_KEY=xxxx
 | `npm run preview` | سرو کردن خروجی build |
 | `npm run lint` | اجرای ESLint |
 | `npm run typecheck` | بررسی تایپ‌ها با TypeScript |
+
+## انتشار روی GitHub Pages
+
+ورک‌فلوی `.github/workflows/deploy.yml` با هر پوش روی `main` پروژه را build و منتشر می‌کند.
+چون Pages این ریپو را زیر مسیر `/ModAra/` سرو می‌کند، `vite.config.ts` هنگام build مقدار
+`base` را روی `/ModAra/` می‌گذارد و همهٔ تصاویر با تابع `asset()` (در `src/lib/format.ts`)
+نسبت به همان مسیر ساخته می‌شوند. برای انتشار روی دامنهٔ اختصاصی یا ریشهٔ سایت:
+
+```bash
+BASE_PATH=/ npm run build
+```

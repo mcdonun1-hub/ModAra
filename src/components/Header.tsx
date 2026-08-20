@@ -1,11 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Store } from 'lucide-react';
 
-type HeaderProps = {
-  currentView: string;
-};
-
-export default function Header({ currentView: _currentView }: HeaderProps) {
+export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
