@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { ArrowLeft, Star, Truck, Shield, Sparkles, RefreshCw, Shirt, Glasses, Watch, ShoppingBag, Gem, Package, X } from 'lucide-react';
 import { supabase, type Product, type BlogPost, type Category } from '../lib/supabase';
-import { formatDate } from '../lib/format';
+import { formatDate, asset } from '../lib/format';
 import ProductCard from '../components/ProductCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -132,7 +132,7 @@ export default function Home({ onNavigate }: HomeProps) {
               >
                 <div className="relative aspect-[3/4] overflow-hidden bg-dark-50">
                   <img
-                    src={categoryImages[cat.slug] || ''}
+                    src={asset(categoryImages[cat.slug])}
                     alt={cat.name}
                     className={`h-full w-full object-cover transition-transform duration-500 ${isActive ? 'scale-110' : 'group-hover:scale-110'}`}
                   />
@@ -294,7 +294,7 @@ export default function Home({ onNavigate }: HomeProps) {
             >
               <div className="aspect-video overflow-hidden bg-dark-50">
                 <img
-                  src={post.image_url || ''}
+                  src={asset(post.image_url)}
                   alt={post.title}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

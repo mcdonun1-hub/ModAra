@@ -52,7 +52,7 @@ function AppContent() {
     <div className="relative min-h-screen flex flex-col">
       <BackgroundDecor />
 
-      <Header currentView={view.name} />
+      <Header />
 
       <main className="flex-1">
         {view.name === 'home' && <Home onNavigate={handleNavigate} />}

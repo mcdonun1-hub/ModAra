@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Star, ShoppingCart, ChevronLeft, Truck, Shield, RefreshCw, Check, MessageSquare, Send } from 'lucide-react';
 import { supabase, type Product, type Review } from '../lib/supabase';
-import { formatPrice, formatDate } from '../lib/format';
+import { formatPrice, formatDate, asset } from '../lib/format';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 
@@ -156,7 +156,7 @@ export default function ProductDetail({ slug, onNavigate, onOpenAuth }: ProductD
             <div className="sticky top-24">
               <div className="relative aspect-square overflow-hidden rounded-2xl border border-dark-100 bg-white shadow-lg">
                 <img
-                  src={product.image_url || ''}
+                  src={asset(product.image_url)}
                   alt={product.name}
                   className="h-full w-full object-cover"
                 />
@@ -400,7 +400,7 @@ function ProductCardLite({ product }: { product: Product }) {
     <div className="group cursor-pointer overflow-hidden rounded-2xl border border-dark-100 bg-white shadow-sm transition-all hover:shadow-xl hover:-translate-y-1">
       <div className="relative aspect-square overflow-hidden bg-dark-50">
         <img
-          src={product.image_url || ''}
+          src={asset(product.image_url)}
           alt={product.name}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />

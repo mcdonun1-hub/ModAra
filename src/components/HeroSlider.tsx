@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Sparkles, ArrowLeft } from 'lucide-react';
+import { asset } from '../lib/format';
 
 type Slide = {
   title: string;
@@ -78,7 +79,7 @@ export default function HeroSlider({ onNavigate }: HeroSliderProps) {
           }`}
         >
           <img
-            src={slide.image}
+            src={asset(slide.image)}
             alt={slide.title}
             className="h-full w-full object-cover"
           />

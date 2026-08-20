@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
 import { supabase, type BlogPost } from '../lib/supabase';
-import { formatDate } from '../lib/format';
+import { formatDate, asset } from '../lib/format';
 
 type BlogProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -59,7 +59,7 @@ export default function Blog({ onNavigate }: BlogProps) {
                 <div className="grid grid-cols-1 md:grid-cols-2">
                   <div className="aspect-video md:aspect-auto md:h-80 overflow-hidden bg-dark-50">
                     <img
-                      src={featured.image_url || ''}
+                      src={asset(featured.image_url)}
                       alt={featured.title}
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
@@ -93,7 +93,7 @@ export default function Blog({ onNavigate }: BlogProps) {
                 >
                   <div className="aspect-video overflow-hidden bg-dark-50">
                     <img
-                      src={post.image_url || ''}
+                      src={asset(post.image_url)}
                       alt={post.title}
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
