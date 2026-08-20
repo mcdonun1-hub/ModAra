@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { ArrowLeft, Star, Truck, Shield, Sparkles, RefreshCw, Shirt, Glasses, Watch, ShoppingBag, Gem, Package, X } from 'lucide-react';
 import { supabase, type Product, type BlogPost, type Category } from '../lib/supabase';
-import { formatDate } from '../lib/format';
+import { formatDate, assetUrl } from '../lib/format';
 import ProductCard from '../components/ProductCard';
 import HeroSlider from '../components/HeroSlider';
 
@@ -19,12 +19,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 };
 
 const categoryImages: Record<string, string> = {
-  clothing: '/images/cat-clothing.jpg',
-  pants: '/images/cat-pants.jpg',
-  glasses: '/images/cat-glasses.jpg',
-  watch: '/images/cat-watch.jpg',
-  bag: '/images/cat-bag.jpg',
-  accessory: '/images/cat-accessory.jpg',
+  clothing: assetUrl('/images/cat-clothing.jpg'),
+  pants: assetUrl('/images/cat-pants.jpg'),
+  glasses: assetUrl('/images/cat-glasses.jpg'),
+  watch: assetUrl('/images/cat-watch.jpg'),
+  bag: assetUrl('/images/cat-bag.jpg'),
+  accessory: assetUrl('/images/cat-accessory.jpg'),
 };
 
 export default function Home({ onNavigate }: HomeProps) {
@@ -294,7 +294,7 @@ export default function Home({ onNavigate }: HomeProps) {
             >
               <div className="aspect-video overflow-hidden bg-dark-50">
                 <img
-                  src={post.image_url || ''}
+                  src={assetUrl(post.image_url || '')}
                   alt={post.title}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

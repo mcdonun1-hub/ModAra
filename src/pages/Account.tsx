@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Package, Clock, CheckCircle, Truck, LogOut, Mail } from 'lucide-react';
 import { supabase, type Order } from '../lib/supabase';
 import { useAuth } from '../context/AuthContext';
-import { formatPrice, formatDateTime } from '../lib/format';
+import { formatPrice, formatDateTime, assetUrl } from '../lib/format';
 
 type AccountProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -123,7 +123,7 @@ export default function Account({ onNavigate }: AccountProps) {
                       <div key={item.id} className="flex items-center gap-3 rounded-xl bg-dark-50 p-3">
                         <div className="h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-white">
                           <img
-                            src={item.product?.image_url || ''}
+                            src={assetUrl(item.product?.image_url || '')}
                             alt={item.product?.name || ''}
                             className="h-full w-full object-cover"
                           />

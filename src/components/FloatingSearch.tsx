@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Search, X } from 'lucide-react';
 import { supabase, type Product } from '../lib/supabase';
-import { formatPrice } from '../lib/format';
+import { formatPrice, assetUrl } from '../lib/format';
 
 type FloatingSearchProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -85,7 +85,7 @@ export default function FloatingSearch({ onNavigate }: FloatingSearchProps) {
                   >
                     <div className="h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-dark-50">
                       {p.image_url && (
-                        <img src={p.image_url} alt={p.name} className="h-full w-full object-cover" />
+                        <img src={assetUrl(p.image_url)} alt={p.name} className="h-full w-full object-cover" />
                       )}
                     </div>
                     <div className="flex-1 min-w-0">

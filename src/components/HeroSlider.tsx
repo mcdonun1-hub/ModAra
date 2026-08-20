@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Sparkles, ArrowLeft } from 'lucide-react';
+import { assetUrl } from '../lib/format';
 
 type Slide = {
   title: string;
@@ -16,7 +17,7 @@ const slides: Slide[] = [
     title: 'استایل شما',
     subtitle: 'بیان شخصیت شماست',
     description: 'جدیدترین کالکشن پاییزه با طراحی‌های منحصربه‌فرد و قیمت‌های باورنکردنی منتظر شماست',
-    image: '/images/hero-1.jpg',
+    image: assetUrl('/images/hero-1.jpg'),
     badge: 'کالکشن جدید پاییز',
     cta: 'مشاهده کالکشن',
     accent: 'from-amber-500 to-orange-700',
@@ -25,7 +26,7 @@ const slides: Slide[] = [
     title: 'اکسسوری‌های لوکس',
     subtitle: 'تکمیل‌کننده استایل',
     description: 'عینک‌های آفتابی، ساعت‌های مچی و جواهراتی که ظاهر شما را متحول می‌کنند',
-    image: '/images/hero-2.jpg',
+    image: assetUrl('/images/hero-2.jpg'),
     badge: 'تخفیف ویژه',
     cta: 'خرید اکسسوری',
     accent: 'from-slate-600 to-slate-900',
@@ -34,7 +35,7 @@ const slides: Slide[] = [
     title: 'شیک‌پوشی',
     subtitle: 'با لباس‌های برند',
     description: 'از پیراهن‌های کلاسیک تا شلوارهای مدرن، بهترین‌ها را برای شما گردآوری کرده‌ایم',
-    image: '/images/hero-3.jpg',
+    image: assetUrl('/images/hero-3.jpg'),
     badge: 'پرفروش‌ترین‌ها',
     cta: 'مشاهده لباس‌ها',
     accent: 'from-rose-500 to-pink-700',

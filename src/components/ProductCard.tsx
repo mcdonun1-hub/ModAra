@@ -1,5 +1,6 @@
 import { Star, ShoppingCart, Eye } from 'lucide-react';
 import type { Product } from '../lib/supabase';
+import { assetUrl } from '../lib/format';
 import { formatPrice } from '../lib/format';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
@@ -31,7 +32,7 @@ export default function ProductCard({ product, onView }: ProductCardProps) {
       {/* Image */}
       <div className="relative aspect-[3/4] overflow-hidden bg-dark-50">
         <img
-          src={product.image_url || ''}
+          src={assetUrl(product.image_url || '')}
           alt={product.name}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
