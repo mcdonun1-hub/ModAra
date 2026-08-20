@@ -19,7 +19,6 @@ export const catalog = [
   { cat: 'clothing', slug: 'wool-blazer-navy-men', name: 'کت تک پشمی مردانه سرمه‌ای', price: 4200000, rating: 4.8, stock: 25, desc: 'کت تک پشمی با برش تیلور و آستر ابریشمی، مناسب محافل رسمی' },
   { cat: 'clothing', slug: 'midi-dress-floral-women', name: 'پیراهن میدی گلدار زنانه', price: 2100000, rating: 4.6, stock: 40, desc: 'پیراهن میدی با طرح گل‌های ریز و پارچه ویسکوز خنک' },
   { cat: 'clothing', slug: 'polo-shirt-green-men', name: 'پولوشرت مردانه سبز', price: 850000, rating: 4.4, stock: 110, desc: 'پولوشرت پیکه با یقه ریب و دوخت تمیز، مناسب بهار و تابستان' },
-  { cat: 'clothing', slug: 'cardigan-oatmeal-women', name: 'ژاکت بافت زنانه شیری', price: 1490000, rating: 4.5, stock: 60, desc: 'ژاکت بافت جلوباز با دکمه صدفی و جیب بغل، گرم و سبک' },
 
   /* --------------------------------------------------------------- pants */
   { cat: 'pants', slug: 'slim-jeans-men', name: 'شلوار جین مردانه اسلیم', price: 1500000, rating: 4.6, stock: 100, existing: 'prod-pants-1.jpg', desc: 'شلوار جین مردانه اسلیم فیت با پارچه کش‌سفارشی و دوام بالا' },
@@ -36,7 +35,6 @@ export const catalog = [
   { cat: 'pants', slug: 'jogger-gray-women', name: 'شلوار جاگر زنانه طوسی', price: 950000, rating: 4.5, stock: 115, desc: 'جاگر زنانه با پارچه نرم و جیب زیپ‌دار' },
   { cat: 'pants', slug: 'corduroy-pants-brown-men', name: 'شلوار مخمل کبریتی مردانه قهوه‌ای', price: 1450000, rating: 4.5, stock: 65, desc: 'شلوار مخمل کبریتی با بافت گرم و رنگ‌بندی پاییزی' },
   { cat: 'pants', slug: 'paperbag-pants-cream-women', name: 'شلوار پیپربگ زنانه کرم', price: 1390000, rating: 4.6, stock: 72, desc: 'شلوار پیپربگ با کمر چین‌دار و کمربند هم‌رنگ' },
-  { cat: 'pants', slug: 'denim-shorts-men', name: 'شلوارک جین مردانه', price: 890000, rating: 4.3, stock: 130, desc: 'شلوارک جین با لبه تاشو و شست‌وشوی روشن' },
   { cat: 'pants', slug: 'leggings-black-women', name: 'لگ ورزشی زنانه مشکی', price: 780000, rating: 4.7, stock: 140, desc: 'لگ ورزشی کمر بالا با پارچه ضدعرق و کشسانی چهارجهته' },
 
   /* ------------------------------------------------------------- glasses */
@@ -55,7 +53,6 @@ export const catalog = [
   { cat: 'glasses', slug: 'blue-light-glasses', name: 'عینک محافظ نور آبی', price: 990000, rating: 4.7, stock: 95, desc: 'عینک مخصوص کار با کامپیوتر با پوشش ضد نور آبی' },
   { cat: 'glasses', slug: 'mirrored-sunglasses-blue', name: 'عینک آفتابی آینه‌ای آبی', price: 1780000, rating: 4.5, stock: 52, desc: 'عدسی آینه‌ای آبی با فریم مشکی مات و ظاهری اسپرت' },
   { cat: 'glasses', slug: 'vintage-sunglasses-green', name: 'عینک آفتابی وینتیج سبز', price: 1850000, rating: 4.6, stock: 44, desc: 'طرح وینتیج دهه هفتاد با عدسی سبز و فریم طلایی' },
-  { cat: 'glasses', slug: 'kids-sunglasses', name: 'عینک آفتابی بچگانه', price: 690000, rating: 4.4, stock: 100, desc: 'عینک سبک و انعطاف‌پذیر مخصوص کودکان با محافظت UV400' },
 
   /* --------------------------------------------------------------- watch */
   { cat: 'watch', slug: 'luxury-gold-watch', name: 'ساعت مچی لوکس طلایی', price: 4500000, rating: 4.8, stock: 30, existing: 'prod-watch-1.jpg', desc: 'ساعت مچی با بدنه طلایی و بند چرمی، طراحی شیک و کلاسیک برای آقایان' },
@@ -73,7 +70,6 @@ export const catalog = [
   { cat: 'watch', slug: 'ceramic-white-watch', name: 'ساعت سرامیکی سفید', price: 4800000, rating: 4.6, stock: 26, desc: 'بدنه و بند سرامیکی سفید، مقاوم در برابر خش و سبک' },
   { cat: 'watch', slug: 'bracelet-watch-women-gold', name: 'ساعت دستبندی زنانه طلایی', price: 3450000, rating: 4.7, stock: 38, desc: 'ساعت دستبندی با صفحه کوچک و بند حلقه‌ای طلایی' },
   { cat: 'watch', slug: 'field-watch-khaki', name: 'ساعت فیلد خاکی', price: 2650000, rating: 4.5, stock: 48, desc: 'ساعت فیلد با بند نظامی نایلونی و صفحه مات ضدبازتاب' },
-  { cat: 'watch', slug: 'dual-tone-watch', name: 'ساعت دو رنگ استیل و طلایی', price: 4350000, rating: 4.6, stock: 33, desc: 'بند دو رنگ استیل و طلایی با صفحه صدفی' },
 
   /* ----------------------------------------------------------------- bag */
   { cat: 'bag', slug: 'leather-handbag-women', name: 'کیف دستی زنانه چرم', price: 2300000, rating: 4.8, stock: 50, existing: 'prod-bag-1.jpg', desc: 'کیف دستی زنانه از چرم طبیعی با طراحی شیک و فضای داخلی جادار' },
@@ -91,7 +87,6 @@ export const catalog = [
   { cat: 'bag', slug: 'straw-beach-bag', name: 'کیف حصیری ساحلی', price: 1150000, rating: 4.5, stock: 62, desc: 'کیف حصیری دست‌باف با دسته چرمی، مناسب تابستان' },
   { cat: 'bag', slug: 'quilted-chain-bag', name: 'کیف زنجیردار لوزی‌دوزی', price: 2450000, rating: 4.8, stock: 42, desc: 'کیف لوزی‌دوزی با بند زنجیری طلایی و قفل فلزی' },
   { cat: 'bag', slug: 'satchel-bag-navy', name: 'کیف ساچل سرمه‌ای', price: 2150000, rating: 4.6, stock: 44, desc: 'کیف ساچل با دو سگک جلو و فرم ساختاریافته' },
-  { cat: 'bag', slug: 'student-backpack-navy', name: 'کوله دانشجویی سرمه‌ای', price: 1290000, rating: 4.5, stock: 95, desc: 'کوله دانشجویی سبک با چند جیب و پارچه ضدآب' },
 
   /* ----------------------------------------------------------- accessory */
   { cat: 'accessory', slug: 'leather-belt-men', name: 'کمربند چرم مردانه', price: 650000, rating: 4.4, stock: 120, existing: 'prod-belt-1.jpg', desc: 'کمربند چرم طبیعی مردانه با سگکی استیل، طراحی شیک و دوام بالا' },
@@ -109,7 +104,6 @@ export const catalog = [
   { cat: 'accessory', slug: 'baseball-cap-black', name: 'کلاه بیسبالی مشکی', price: 550000, rating: 4.4, stock: 135, desc: 'کلاه بیسبالی نخی با بند تنظیم فلزی' },
   { cat: 'accessory', slug: 'fedora-hat-beige', name: 'کلاه شاپو بژ', price: 980000, rating: 4.5, stock: 60, desc: 'کلاه شاپو نمدی با نوار مشکی دور تاج' },
   { cat: 'accessory', slug: 'leather-gloves-black', name: 'دستکش چرم مشکی', price: 1150000, rating: 4.6, stock: 75, desc: 'دستکش چرم طبیعی با آستر کشمیر، گرم و انعطاف‌پذیر' },
-  { cat: 'accessory', slug: 'cufflinks-silver', name: 'دکمه سردست نقره‌ای', price: 890000, rating: 4.5, stock: 80, desc: 'دکمه سردست نقره‌ای با طرح هندسی، مناسب پیراهن رسمی' },
 ];
 
 export const categories = [
