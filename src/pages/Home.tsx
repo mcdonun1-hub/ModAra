@@ -3,7 +3,7 @@ import { ArrowLeft, Star, Truck, Shield, Sparkles, RefreshCw, Shirt, Glasses, Wa
 import { supabase, type Product, type BlogPost, type Category } from '../lib/supabase';
 import { formatDate, assetUrl } from '../lib/format';
 import ProductCard from '../components/ProductCard';
-import HeroSlider from '../components/HeroSlider';
+import Hero3DSwitcher from '../components/hero3d/Hero3DSwitcher';
 
 type HomeProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -80,8 +80,8 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div>
-      {/* Hero Slider */}
-      <HeroSlider onNavigate={onNavigate} />
+      {/* Hero 3D (switcher between WebGL, CSS carousel, parallax, ribbon) */}
+      <Hero3DSwitcher onNavigate={onNavigate} />
 
       {/* Features bar */}
       <section className="relative -mt-8 z-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
