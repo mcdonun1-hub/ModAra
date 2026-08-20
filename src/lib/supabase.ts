@@ -1,22 +1,34 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+import { localBackend } from './localBackend';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  throw new Error('Missing Supabase environment variables');
-}
+/**
+ * When Supabase credentials are configured we talk to the real project.
+ * Otherwise the app falls back to a fully local, in-browser demo backend so
+ * the site can be run and browsed without any external service.
+ */
+export const isDemoMode = !supabaseUrl || !supabaseAnonKey;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
-  auth: {
-    persistSession: true,
-    autoRefreshToken: true,
-    storage: window.localStorage,
-    storageKey: 'technoshop-auth',
-    detectSessionInUrl: true,
-    flowType: 'implicit',
-  },
-});
+export const supabase = (
+  isDemoMode
+    ? localBackend
+    : createClient(supabaseUrl, supabaseAnonKey, {
+        auth: {
+          persistSession: true,
+          autoRefreshToken: true,
+          storage: window.localStorage,
+          storageKey: 'technoshop-auth',
+          detectSessionInUrl: true,
+          flowType: 'implicit',
+        },
+      })
+) as SupabaseClient;
+
+if (isDemoMode) {
+  console.info('[ModAra] Running in local demo mode (no Supabase credentials found).');
+}
 
 export type Category = {
   id: string;

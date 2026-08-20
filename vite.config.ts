@@ -7,4 +7,18 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    host: '0.0.0.0',
+    port: 5173,
+    strictPort: true,
+    // allow the sandbox/preview proxy hosts (e2b, ngrok-style tunnels, LAN)
+    allowedHosts: true,
+    hmr: { clientPort: 443 },
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: 4173,
+    strictPort: true,
+    allowedHosts: true,
+  },
 });
