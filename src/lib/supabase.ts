@@ -264,8 +264,8 @@ function seed(): Db {
     P('p-bag-12', 'کیف کمری چرم', 'brown-waist-bag', 'کیف کمری چرم قهوه‌ای، مناسب استایل اسپرت و شهری', 1150000, '/images/prod-bag-12.jpg', c.bag.id, 4.5, 70, 5_500_000),
     P('p-bag-13', 'کیف مینی سفید', 'mini-white-handbag', 'کیف مینی سفید با طراحی ظریف و بند طلایی', 1650000, '/images/prod-bag-13.jpg', c.bag.id, 4.7, 50, 5_400_000),
     P('p-bag-14', 'کیف حصیری تابستانی', 'rattan-straw-bag', 'کیف حصیری بافته‌شده، مناسب روزهای تابستان', 980000, '/images/prod-bag-14.jpg', c.bag.id, 4.5, 65, 5_300_000),
-    P('p-scarf-1', 'شال گردن ابریشمی زنانه', 'silk-scarf-women', 'شال گردن ابریشمی با نقش‌های ظریف و لطافت بالا، مناسب فصل سرد', 720000, '/images/cat-accessory.jpg', c.accessory.id, 4.6, 95, 6_200_000),
-    P('p-cap-1', 'کلاه کپ مردانه', 'men-cap', 'کلاه کپ مردانه با طراحی ساده و پارچه باکیفیت، مناسب استفاده روزمره', 480000, '/images/cat-accessory.jpg', c.accessory.id, 4.5, 120, 6_100_000),
+    P('p-scarf-1', 'شال گردن ابریشمی زنانه', 'silk-scarf-women', 'شال گردن ابریشمی با نقش‌های ظریف و لطافت بالا، مناسب فصل سرد', 720000, '/images/prod-scarf-1.jpg', c.accessory.id, 4.6, 95, 6_200_000),
+    P('p-cap-1', 'کلاه کپ مردانه', 'men-cap', 'کلاه کپ مردانه با طراحی ساده و پارچه باکیفیت، مناسب استفاده روزمره', 480000, '/images/prod-cap-1.jpg', c.accessory.id, 4.5, 120, 6_100_000),
 
     // ---- New accessories (added) ----
     P('p-glove-1', 'دستکش چرم مشکی', 'black-leather-gloves', 'دستکش چرم مشکی با آستر نرم، مناسب فصل سرد', 980000, '/images/prod-accessory-5.jpg', c.accessory.id, 4.6, 60, 6_000_000),
