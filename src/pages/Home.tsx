@@ -1,7 +1,6 @@
-import { useEffect, useState, useCallback, useRef, lazy, Suspense } from 'react';
+import { useEffect, useState, useCallback, useRef } from 'react';
 import { ArrowLeft, Star, Truck, Shield, Sparkles, RefreshCw, Shirt, Glasses, Watch, ShoppingBag, Gem, Package, X } from 'lucide-react';
 
-const HoodieHero = lazy(() => import('../components/3d/HoodieHero'));
 import { supabase, type Product, type BlogPost, type Category } from '../lib/supabase';
 import { formatDate, assetUrl } from '../lib/format';
 import ProductCard from '../components/ProductCard';
@@ -84,19 +83,6 @@ export default function Home({ onNavigate }: HomeProps) {
     <div>
       {/* Hero Slider */}
       <HeroSlider onNavigate={onNavigate} />
-
-      {/* Premium 3D hoodie configurator */}
-      <section className="bg-dark-900/40 py-6">
-        <Suspense
-          fallback={
-            <div className="flex h-64 items-center justify-center">
-              <div className="h-10 w-10 animate-spin rounded-full border-2 border-amber-500 border-t-transparent" />
-            </div>
-          }
-        >
-          <HoodieHero />
-        </Suspense>
-      </section>
 
       {/* Features bar */}
       <section className="relative -mt-8 z-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
