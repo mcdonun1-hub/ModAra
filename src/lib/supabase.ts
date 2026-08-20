@@ -92,7 +92,7 @@ export type Review = {
 type Row = Record<string, any>;
 type Db = Record<string, Row[]>;
 
-const DB_KEY = 'modara-mock-db-v2';
+const DB_KEY = 'modara-mock-db-v3';
 const SESSION_KEY = 'modara-mock-session-v1';
 const USERS_KEY = 'modara-mock-users-v1';
 
@@ -196,8 +196,32 @@ function seed(): Db {
     // ---- New products (added) ----
     P('p-shirt-3', 'کت مردانه رسمی مشکی', 'formal-black-blazer', 'کت رسمی مردانه با برش کلاسیک و پارچه ضخیم، مناسب مجالس و محیط‌های کاری', 2400000, '/images/prod-shirt-3.jpg', c.clothing.id, 4.6, 45, 7_200_000),
     P('p-shirt-4', 'هودی زنانه راحت کرم', 'cozy-beige-hoodie', 'هودی زنانه از جنس فلیس نرم و گرم، مناسب استایل راحت روزمره', 1750000, '/images/prod-shirt-4.jpg', c.clothing.id, 4.7, 70, 7_100_000),
+
+    // ---- New clothing (added) ----
+    P('p-shirt-5', 'پیراهن مردانه راه‌راه', 'striped-casual-shirt', 'پیراهن مردانه با طرح راه‌راه آبی، مناسب استایل روزمره و نیمه‌رسمی', 1100000, '/images/prod-shirt-5.jpg', c.clothing.id, 4.5, 85, 7_000_000),
+    P('p-shirt-6', 'ژاکت جین کلاسیک', 'denim-jacket', 'ژاکت جین با دوخت محکم و رنگ کلاسیک، مناسب استایل کژوال', 1950000, '/images/prod-shirt-6.jpg', c.clothing.id, 4.6, 55, 6_900_000),
+    P('p-shirt-7', 'تی‌شرت نخی سفید', 'white-crewneck-tee', 'تی‌شرت نخی سفید با دوخت تمیز و پارچه خنک، مناسب استفاده روزانه', 390000, '/images/prod-shirt-7.jpg', c.clothing.id, 4.4, 150, 6_800_000),
+    P('p-shirt-8', 'لباس تابستانی گل‌دار', 'floral-summer-dress', 'لباس زنانه با طرح گلدار و پارچه سبک، مناسب روزهای گرم تابستان', 1650000, '/images/prod-shirt-8.jpg', c.clothing.id, 4.7, 50, 6_700_000),
+    P('p-shirt-9', 'پالتو پشمی شتری', 'camel-wool-coat', 'پالتوی پشمی با رنگ شتری و طراحی شیک، مناسب فصل پاییز و زمستان', 4200000, '/images/prod-shirt-9.jpg', c.clothing.id, 4.9, 30, 6_600_000),
+    P('p-shirt-10', 'بافتنی کشباف گرم', 'knit-cardigan', 'بافتنی کشباف با طرح کلاسیک و جنس نرم، مناسب استایل لایه‌ای', 1350000, '/images/prod-shirt-10.jpg', c.clothing.id, 4.6, 65, 6_500_000),
+    P('p-shirt-11', 'بلوز زنانه خال‌خالی', 'polka-blouse', 'بلوز زنانه با طرح خال‌خالی و یقه ظریف، مناسب مجالس', 980000, '/images/prod-shirt-11.jpg', c.clothing.id, 4.5, 75, 6_400_000),
+    P('p-shirt-12', 'پیراهن پولو سرمه‌ای', 'navy-polo-shirt', 'پیراهن پولو مردانه با رنگ سرمه‌ای و یقه کلاسیک', 850000, '/images/prod-shirt-12.jpg', c.clothing.id, 4.5, 90, 6_300_000),
+    P('p-shirt-13', 'بارانی بژ', 'beige-trench-coat', 'بارانی با رنگ بژ و کمربند، طراحی کلاسیک و ضدآب', 2900000, '/images/prod-shirt-13.jpg', c.clothing.id, 4.7, 40, 6_200_000),
+    P('p-shirt-14', 'بمبرجک مشکی', 'black-bomber-jacket', 'بمبرجک مشکی با جنس سبک و زیپ مقاوم، مناسب استایل اسپرت', 2050000, '/images/prod-shirt-14.jpg', c.clothing.id, 4.6, 45, 6_100_000),
     P('p-pants-3', 'شلوار کتان مردانه', 'beige-chino-pants', 'شلوار کتان مردانه با رنگ بژ و دوخت ظریف، مناسب استایل نیمه‌رسمی', 1250000, '/images/prod-pants-3.jpg', c.pants.id, 4.5, 90, 7_000_000),
     P('p-pants-4', 'شلوار پارچه‌ای زنانه سرمه‌ای', 'navy-women-trousers', 'شلوار پارچه‌ای زنانه با رنگ سرمه‌ای و فیت راحت، مناسب محیط کار', 1420000, '/images/prod-pants-4.jpg', c.pants.id, 4.6, 65, 6_900_000),
+
+    // ---- New pants (added) ----
+    P('p-pants-5', 'شلوار کتان مشکی', 'black-chino-pants', 'شلوار کتان مشکی با فیت اسلیم، مناسب استایل رسمی و نیمه‌رسمی', 1300000, '/images/prod-pants-5.jpg', c.pants.id, 4.5, 85, 6_800_000),
+    P('p-pants-6', 'شلوار زنانه سفید کمر بالا', 'white-highwaist-pants', 'شلوار زنانه سفید با کمر بالا، مناسب استایل تابستانی', 1180000, '/images/prod-pants-6.jpg', c.pants.id, 4.6, 60, 6_700_000),
+    P('p-pants-7', 'جین آبی پاره', 'ripped-denim-jeans', 'شلوار جین آبی با برش پاره و طراحی مدرن', 1550000, '/images/prod-pants-7.jpg', c.pants.id, 4.7, 70, 6_600_000),
+    P('p-pants-8', 'شلوار کارگو زیتونی', 'olive-cargo-pants', 'شلوار کارگو با رنگ زیتونی و جیب‌های متعدد، مناسب استایل اسپرت', 1380000, '/images/prod-pants-8.jpg', c.pants.id, 4.6, 80, 6_500_000),
+    P('p-pants-9', 'جین مشکی زنانه', 'black-skinny-jeans', 'شلوار جین مشکی زنانه با فیت اسکینی', 1450000, '/images/prod-pants-9.jpg', c.pants.id, 4.6, 65, 6_400_000),
+    P('p-pants-10', 'شلوار گرمکن خاکستری', 'grey-jogger-pants', 'شلوار گرمکن خاکستری با کش راحت، مناسب خانه و ورزش', 890000, '/images/prod-pants-10.jpg', c.pants.id, 4.4, 110, 6_300_000),
+    P('p-pants-11', 'شلوار گشاد زنانه ذغالی', 'wideleg-charcoal-pants', 'شلوار گشاد زنانه با رنگ ذغالی، مناسب استایل شیک', 1280000, '/images/prod-pants-11.jpg', c.pants.id, 4.5, 55, 6_200_000),
+    P('p-pants-12', 'شلوار مخمل قهوه‌ای', 'brown-corduroy-pants', 'شلوار مخمل با رنگ قهوه‌ای، مناسب فصل پاییز', 1220000, '/images/prod-pants-12.jpg', c.pants.id, 4.5, 75, 6_100_000),
+    P('p-pants-13', 'شلوار رسمی سفید', 'white-pleated-trousers', 'شلوار رسمی سفید با چین شیک، مناسب مجالس', 1600000, '/images/prod-pants-13.jpg', c.pants.id, 4.7, 45, 6_000_000),
+    P('p-pants-14', 'شلوار گشاد بژ زنانه', 'beige-wideleg-pants', 'شلوار گشاد زنانه با رنگ بژ، مناسب استایل کژوال', 1250000, '/images/prod-pants-14.jpg', c.pants.id, 4.6, 60, 5_900_000),
     P('p-glasses-3', 'عینک آفتابی اسپرت', 'sport-aviator-sunglasses', 'عینک آفتابی اسپرت با عدسی پلاریزه و فریم سبک، مناسب فعالیت‌های روزانه', 1450000, '/images/prod-glasses-3.jpg', c.glasses.id, 4.6, 60, 6_800_000),
     P('p-glasses-4', 'عینک طبی کلاسیک مشکی', 'classic-optical-glasses', 'عینک طبی با فریم مشکی کلاسیک و عدسی باکیفیت، مناسب استفاده روزمره', 980000, '/images/prod-glasses-4.jpg', c.glasses.id, 4.5, 85, 6_700_000),
     P('p-watch-3', 'ساعت مچی زنانه رزگلد', 'rosegold-women-watch', 'ساعت مچی زنانه با بدنه رزگلد و طراحی ظریف، مناسب استایل رسمی', 3900000, '/images/prod-watch-3.jpg', c.watch.id, 4.8, 35, 6_600_000),
