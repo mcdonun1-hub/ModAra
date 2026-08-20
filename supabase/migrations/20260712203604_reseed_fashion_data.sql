@@ -68,7 +68,19 @@ INSERT INTO products (name, slug, description, price, image_url, category_id, ra
   ('کیف دستی زنانه چرم', 'leather-handbag-women', 'کیف دستی زنانه از چرم طبیعی با طراحی شیک و فضای داخلی جادار', 2300000, '/images/prod-bag-1.jpg', (SELECT id FROM categories WHERE slug='bag'), 4.8, 50),
   ('کیف دوشی مردانه', 'mens-messenger-bag', 'کیف دوشی مردانه با چرم باکیفیت و طراحی مینیمال، مناسب محل کار و سفر', 1900000, '/images/prod-bag-2.jpg', (SELECT id FROM categories WHERE slug='bag'), 4.5, 65),
   ('کمربند چرم مردانه', 'leather-belt-men', 'کمربند چرم طبیعی مردانه با سگکی استیل، طراحی شیک و دوام بالا', 650000, '/images/prod-belt-1.jpg', (SELECT id FROM categories WHERE slug='accessory'), 4.4, 120),
-  ('ست جواهری زنانه', 'womens-jewelry-set', 'ست جواهری زنانه شامل گردنبند و گوشواره با طراحی ظریف و درخشان', 3200000, '/images/prod-jewelry-1.jpg', (SELECT id FROM categories WHERE slug='accessory'), 4.9, 25)
+  ('ست جواهری زنانه', 'womens-jewelry-set', 'ست جواهری زنانه شامل گردنبند و گوشواره با طراحی ظریف و درخشان', 3200000, '/images/prod-jewelry-1.jpg', (SELECT id FROM categories WHERE slug='accessory'), 4.9, 25),
+  ('کت مردانه رسمی مشکی', 'formal-black-blazer', 'کت رسمی مردانه با برش کلاسیک و پارچه ضخیم، مناسب مجالس و محیط‌های کاری', 2400000, '/images/prod-shirt-3.jpg', (SELECT id FROM categories WHERE slug='clothing'), 4.6, 45),
+  ('هودی زنانه راحت کرم', 'cozy-beige-hoodie', 'هودی زنانه از جنس فلیس نرم و گرم، مناسب استایل راحت روزمره', 1750000, '/images/prod-shirt-4.jpg', (SELECT id FROM categories WHERE slug='clothing'), 4.7, 70),
+  ('شلوار کتان مردانه', 'beige-chino-pants', 'شلوار کتان مردانه با رنگ بژ و دوخت ظریف، مناسب استایل نیمه‌رسمی', 1250000, '/images/prod-pants-3.jpg', (SELECT id FROM categories WHERE slug='pants'), 4.5, 90),
+  ('شلوار پارچه‌ای زنانه سرمه‌ای', 'navy-women-trousers', 'شلوار پارچه‌ای زنانه با رنگ سرمه‌ای و فیت راحت، مناسب محیط کار', 1420000, '/images/prod-pants-4.jpg', (SELECT id FROM categories WHERE slug='pants'), 4.6, 65),
+  ('عینک آفتابی اسپرت', 'sport-aviator-sunglasses', 'عینک آفتابی اسپرت با عدسی پلاریزه و فریم سبک، مناسب فعالیت‌های روزانه', 1450000, '/images/prod-glasses-3.jpg', (SELECT id FROM categories WHERE slug='glasses'), 4.6, 60),
+  ('عینک طبی کلاسیک مشکی', 'classic-optical-glasses', 'عینک طبی با فریم مشکی کلاسیک و عدسی باکیفیت، مناسب استفاده روزمره', 980000, '/images/prod-glasses-4.jpg', (SELECT id FROM categories WHERE slug='glasses'), 4.5, 85),
+  ('ساعت مچی زنانه رزگلد', 'rosegold-women-watch', 'ساعت مچی زنانه با بدنه رزگلد و طراحی ظریف، مناسب استایل رسمی', 3900000, '/images/prod-watch-3.jpg', (SELECT id FROM categories WHERE slug='watch'), 4.8, 35),
+  ('ساعت مچی کلاسیک چرمی', 'classic-leather-watch', 'ساعت مچی کلاسیک با بند چرم طبیعی و صفحه مینیمال، مناسب آقایان', 3100000, '/images/prod-watch-4.jpg', (SELECT id FROM categories WHERE slug='watch'), 4.7, 40),
+  ('کوله‌پشتی چرم مردانه', 'men-leather-backpack', 'کوله‌پشتی چرم طبیعی مردانه با جیب‌های متعدد، مناسب کار و سفر', 2100000, '/images/prod-bag-3.jpg', (SELECT id FROM categories WHERE slug='bag'), 4.6, 55),
+  ('کیف کلاچ زنانه مشکی', 'black-clutch-bag', 'کیف کلاچ زنانه با طراحی شیک و بند ظریف، مناسب مهمانی و مجالس', 1650000, '/images/prod-bag-4.jpg', (SELECT id FROM categories WHERE slug='bag'), 4.7, 60),
+  ('شال گردن ابریشمی زنانه', 'silk-scarf-women', 'شال گردن ابریشمی با نقش‌های ظریف و لطافت بالا، مناسب فصل سرد', 720000, '/images/cat-accessory.jpg', (SELECT id FROM categories WHERE slug='accessory'), 4.6, 95),
+  ('کلاه کپ مردانه', 'men-cap', 'کلاه کپ مردانه با طراحی ساده و پارچه باکیفیت، مناسب استفاده روزمره', 480000, '/images/cat-accessory.jpg', (SELECT id FROM categories WHERE slug='accessory'), 4.5, 120)
 ON CONFLICT (slug) DO NOTHING;
 
 -- Seed fashion blog posts

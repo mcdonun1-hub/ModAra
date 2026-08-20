@@ -92,7 +92,7 @@ export type Review = {
 type Row = Record<string, any>;
 type Db = Record<string, Row[]>;
 
-const DB_KEY = 'modara-mock-db-v1';
+const DB_KEY = 'modara-mock-db-v2';
 const SESSION_KEY = 'modara-mock-session-v1';
 const USERS_KEY = 'modara-mock-users-v1';
 
@@ -192,6 +192,20 @@ function seed(): Db {
     P('p-bag-2', 'کیف دوشی مردانه', 'mens-messenger-bag', 'کیف دوشی مردانه با چرم باکیفیت و طراحی مینیمال، مناسب محل کار و سفر', 1900000, '/images/prod-bag-2.jpg', c.bag.id, 4.5, 65, 7_500_000),
     P('p-belt-1', 'کمربند چرم مردانه', 'leather-belt-men', 'کمربند چرم طبیعی مردانه با سگکی استیل، طراحی شیک و دوام بالا', 650000, '/images/prod-belt-1.jpg', c.accessory.id, 4.4, 120, 7_400_000),
     P('p-jewelry-1', 'ست جواهری زنانه', 'womens-jewelry-set', 'ست جواهری زنانه شامل گردنبند و گوشواره با طراحی ظریف و درخشان', 3200000, '/images/prod-jewelry-1.jpg', c.accessory.id, 4.9, 25, 7_300_000),
+
+    // ---- New products (added) ----
+    P('p-shirt-3', 'کت مردانه رسمی مشکی', 'formal-black-blazer', 'کت رسمی مردانه با برش کلاسیک و پارچه ضخیم، مناسب مجالس و محیط‌های کاری', 2400000, '/images/prod-shirt-3.jpg', c.clothing.id, 4.6, 45, 7_200_000),
+    P('p-shirt-4', 'هودی زنانه راحت کرم', 'cozy-beige-hoodie', 'هودی زنانه از جنس فلیس نرم و گرم، مناسب استایل راحت روزمره', 1750000, '/images/prod-shirt-4.jpg', c.clothing.id, 4.7, 70, 7_100_000),
+    P('p-pants-3', 'شلوار کتان مردانه', 'beige-chino-pants', 'شلوار کتان مردانه با رنگ بژ و دوخت ظریف، مناسب استایل نیمه‌رسمی', 1250000, '/images/prod-pants-3.jpg', c.pants.id, 4.5, 90, 7_000_000),
+    P('p-pants-4', 'شلوار پارچه‌ای زنانه سرمه‌ای', 'navy-women-trousers', 'شلوار پارچه‌ای زنانه با رنگ سرمه‌ای و فیت راحت، مناسب محیط کار', 1420000, '/images/prod-pants-4.jpg', c.pants.id, 4.6, 65, 6_900_000),
+    P('p-glasses-3', 'عینک آفتابی اسپرت', 'sport-aviator-sunglasses', 'عینک آفتابی اسپرت با عدسی پلاریزه و فریم سبک، مناسب فعالیت‌های روزانه', 1450000, '/images/prod-glasses-3.jpg', c.glasses.id, 4.6, 60, 6_800_000),
+    P('p-glasses-4', 'عینک طبی کلاسیک مشکی', 'classic-optical-glasses', 'عینک طبی با فریم مشکی کلاسیک و عدسی باکیفیت، مناسب استفاده روزمره', 980000, '/images/prod-glasses-4.jpg', c.glasses.id, 4.5, 85, 6_700_000),
+    P('p-watch-3', 'ساعت مچی زنانه رزگلد', 'rosegold-women-watch', 'ساعت مچی زنانه با بدنه رزگلد و طراحی ظریف، مناسب استایل رسمی', 3900000, '/images/prod-watch-3.jpg', c.watch.id, 4.8, 35, 6_600_000),
+    P('p-watch-4', 'ساعت مچی کلاسیک چرمی', 'classic-leather-watch', 'ساعت مچی کلاسیک با بند چرم طبیعی و صفحه مینیمال، مناسب آقایان', 3100000, '/images/prod-watch-4.jpg', c.watch.id, 4.7, 40, 6_500_000),
+    P('p-bag-3', 'کوله‌پشتی چرم مردانه', 'men-leather-backpack', 'کوله‌پشتی چرم طبیعی مردانه با جیب‌های متعدد، مناسب کار و سفر', 2100000, '/images/prod-bag-3.jpg', c.bag.id, 4.6, 55, 6_400_000),
+    P('p-bag-4', 'کیف کلاچ زنانه مشکی', 'black-clutch-bag', 'کیف کلاچ زنانه با طراحی شیک و بند ظریف، مناسب مهمانی و مجالس', 1650000, '/images/prod-bag-4.jpg', c.bag.id, 4.7, 60, 6_300_000),
+    P('p-scarf-1', 'شال گردن ابریشمی زنانه', 'silk-scarf-women', 'شال گردن ابریشمی با نقش‌های ظریف و لطافت بالا، مناسب فصل سرد', 720000, '/images/cat-accessory.jpg', c.accessory.id, 4.6, 95, 6_200_000),
+    P('p-cap-1', 'کلاه کپ مردانه', 'men-cap', 'کلاه کپ مردانه با طراحی ساده و پارچه باکیفیت، مناسب استفاده روزمره', 480000, '/images/cat-accessory.jpg', c.accessory.id, 4.5, 120, 6_100_000),
   ];
 
   const B = (id: string, title: string, slug: string, excerpt: string, content: string, image: string, author: string, offset: number): Row => ({
