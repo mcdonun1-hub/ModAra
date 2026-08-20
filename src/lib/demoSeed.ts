@@ -8,42 +8,42 @@ export const seedCategories: Category[] = [
     "name": "لباس",
     "slug": "clothing",
     "icon": "shirt",
-    "created_at": "2026-02-01T14:51:18.572Z"
+    "created_at": "2026-02-01T14:58:44.715Z"
   },
   {
     "id": "cat-pants",
     "name": "شلوار",
     "slug": "pants",
     "icon": "pants",
-    "created_at": "2026-02-02T14:51:18.572Z"
+    "created_at": "2026-02-02T14:58:44.715Z"
   },
   {
     "id": "cat-glasses",
     "name": "عینک",
     "slug": "glasses",
     "icon": "glasses",
-    "created_at": "2026-02-03T14:51:18.572Z"
+    "created_at": "2026-02-03T14:58:44.715Z"
   },
   {
     "id": "cat-watch",
     "name": "ساعت",
     "slug": "watch",
     "icon": "watch",
-    "created_at": "2026-02-04T14:51:18.572Z"
+    "created_at": "2026-02-04T14:58:44.715Z"
   },
   {
     "id": "cat-bag",
     "name": "کیف",
     "slug": "bag",
     "icon": "bag",
-    "created_at": "2026-02-05T14:51:18.572Z"
+    "created_at": "2026-02-05T14:58:44.715Z"
   },
   {
     "id": "cat-accessory",
     "name": "اکسسوری",
     "slug": "accessory",
     "icon": "gem",
-    "created_at": "2026-02-06T14:51:18.572Z"
+    "created_at": "2026-02-06T14:58:44.715Z"
   }
 ];
 
@@ -58,7 +58,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.7,
     "stock": 80,
-    "created_at": "2026-04-22T14:51:18.572Z"
+    "created_at": "2026-04-22T14:58:44.715Z"
   },
   {
     "id": "prod-elegant-pink-blouse",
@@ -70,7 +70,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.8,
     "stock": 60,
-    "created_at": "2026-04-23T14:51:18.572Z"
+    "created_at": "2026-04-23T14:58:44.715Z"
   },
   {
     "id": "prod-oxford-blue-shirt-men",
@@ -82,7 +82,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.6,
     "stock": 70,
-    "created_at": "2026-04-24T14:51:18.572Z"
+    "created_at": "2026-04-24T14:58:44.715Z"
   },
   {
     "id": "prod-silk-blouse-cream-women",
@@ -94,7 +94,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.8,
     "stock": 45,
-    "created_at": "2026-04-25T14:51:18.572Z"
+    "created_at": "2026-04-25T14:58:44.715Z"
   },
   {
     "id": "prod-knit-sweater-gray-men",
@@ -106,7 +106,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.5,
     "stock": 65,
-    "created_at": "2026-04-26T14:51:18.572Z"
+    "created_at": "2026-04-26T14:58:44.715Z"
   },
   {
     "id": "prod-turtleneck-sweater-beige-women",
@@ -118,7 +118,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.7,
     "stock": 55,
-    "created_at": "2026-04-27T14:51:18.572Z"
+    "created_at": "2026-04-27T14:58:44.715Z"
   },
   {
     "id": "prod-basic-tshirt-black-men",
@@ -130,7 +130,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.4,
     "stock": 150,
-    "created_at": "2026-04-28T14:51:18.572Z"
+    "created_at": "2026-04-28T14:58:44.715Z"
   },
   {
     "id": "prod-oversize-tshirt-white-women",
@@ -142,7 +142,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.5,
     "stock": 130,
-    "created_at": "2026-04-29T14:51:18.572Z"
+    "created_at": "2026-04-29T14:58:44.715Z"
   },
   {
     "id": "prod-hoodie-charcoal-men",
@@ -154,7 +154,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.6,
     "stock": 90,
-    "created_at": "2026-04-30T14:51:18.572Z"
+    "created_at": "2026-04-30T14:58:44.715Z"
   },
   {
     "id": "prod-hoodie-blush-women",
@@ -166,7 +166,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.7,
     "stock": 85,
-    "created_at": "2026-05-01T14:51:18.572Z"
+    "created_at": "2026-05-01T14:58:44.715Z"
   },
   {
     "id": "prod-denim-jacket-men",
@@ -178,7 +178,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.7,
     "stock": 50,
-    "created_at": "2026-05-02T14:51:18.572Z"
+    "created_at": "2026-05-02T14:58:44.715Z"
   },
   {
     "id": "prod-trench-coat-camel-women",
@@ -190,7 +190,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.9,
     "stock": 30,
-    "created_at": "2026-05-03T14:51:18.572Z"
+    "created_at": "2026-05-03T14:58:44.715Z"
   },
   {
     "id": "prod-wool-blazer-navy-men",
@@ -202,7 +202,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.8,
     "stock": 25,
-    "created_at": "2026-05-04T14:51:18.572Z"
+    "created_at": "2026-05-04T14:58:44.715Z"
   },
   {
     "id": "prod-midi-dress-floral-women",
@@ -214,7 +214,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.6,
     "stock": 40,
-    "created_at": "2026-05-05T14:51:18.572Z"
+    "created_at": "2026-05-05T14:58:44.715Z"
   },
   {
     "id": "prod-polo-shirt-green-men",
@@ -226,7 +226,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-clothing",
     "rating": 4.4,
     "stock": 110,
-    "created_at": "2026-05-06T14:51:18.572Z"
+    "created_at": "2026-05-06T14:58:44.715Z"
   },
   {
     "id": "prod-slim-jeans-men",
@@ -238,7 +238,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.6,
     "stock": 100,
-    "created_at": "2026-05-07T14:51:18.572Z"
+    "created_at": "2026-05-07T14:58:44.715Z"
   },
   {
     "id": "prod-linen-pants-women",
@@ -250,7 +250,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.5,
     "stock": 75,
-    "created_at": "2026-05-08T14:51:18.572Z"
+    "created_at": "2026-05-08T14:58:44.715Z"
   },
   {
     "id": "prod-straight-jeans-dark-men",
@@ -262,7 +262,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.6,
     "stock": 95,
-    "created_at": "2026-05-09T14:51:18.572Z"
+    "created_at": "2026-05-09T14:58:44.715Z"
   },
   {
     "id": "prod-mom-jeans-light-women",
@@ -274,7 +274,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.7,
     "stock": 88,
-    "created_at": "2026-05-10T14:51:18.572Z"
+    "created_at": "2026-05-10T14:58:44.715Z"
   },
   {
     "id": "prod-chino-beige-men",
@@ -286,7 +286,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.5,
     "stock": 105,
-    "created_at": "2026-05-11T14:51:18.572Z"
+    "created_at": "2026-05-11T14:58:44.715Z"
   },
   {
     "id": "prod-chino-olive-men",
@@ -298,7 +298,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.4,
     "stock": 98,
-    "created_at": "2026-05-12T14:51:18.572Z"
+    "created_at": "2026-05-12T14:58:44.715Z"
   },
   {
     "id": "prod-wide-leg-trousers-black-women",
@@ -310,7 +310,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.8,
     "stock": 70,
-    "created_at": "2026-05-13T14:51:18.572Z"
+    "created_at": "2026-05-13T14:58:44.715Z"
   },
   {
     "id": "prod-formal-trousers-charcoal-men",
@@ -322,7 +322,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.6,
     "stock": 60,
-    "created_at": "2026-05-14T14:51:18.572Z"
+    "created_at": "2026-05-14T14:58:44.715Z"
   },
   {
     "id": "prod-cargo-pants-khaki-men",
@@ -334,7 +334,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.5,
     "stock": 85,
-    "created_at": "2026-05-15T14:51:18.572Z"
+    "created_at": "2026-05-15T14:58:44.715Z"
   },
   {
     "id": "prod-cargo-pants-sage-women",
@@ -346,7 +346,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.6,
     "stock": 78,
-    "created_at": "2026-05-16T14:51:18.572Z"
+    "created_at": "2026-05-16T14:58:44.715Z"
   },
   {
     "id": "prod-jogger-navy-men",
@@ -358,7 +358,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.4,
     "stock": 120,
-    "created_at": "2026-05-17T14:51:18.572Z"
+    "created_at": "2026-05-17T14:58:44.715Z"
   },
   {
     "id": "prod-jogger-gray-women",
@@ -370,7 +370,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.5,
     "stock": 115,
-    "created_at": "2026-05-18T14:51:18.572Z"
+    "created_at": "2026-05-18T14:58:44.715Z"
   },
   {
     "id": "prod-corduroy-pants-brown-men",
@@ -382,7 +382,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.5,
     "stock": 65,
-    "created_at": "2026-05-19T14:51:18.572Z"
+    "created_at": "2026-05-19T14:58:44.715Z"
   },
   {
     "id": "prod-paperbag-pants-cream-women",
@@ -394,7 +394,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.6,
     "stock": 72,
-    "created_at": "2026-05-20T14:51:18.572Z"
+    "created_at": "2026-05-20T14:58:44.715Z"
   },
   {
     "id": "prod-leggings-black-women",
@@ -406,7 +406,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-pants",
     "rating": 4.7,
     "stock": 140,
-    "created_at": "2026-05-21T14:51:18.572Z"
+    "created_at": "2026-05-21T14:58:44.715Z"
   },
   {
     "id": "prod-luxury-sunglasses-classic",
@@ -418,7 +418,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.9,
     "stock": 40,
-    "created_at": "2026-05-22T14:51:18.572Z"
+    "created_at": "2026-05-22T14:58:44.715Z"
   },
   {
     "id": "prod-modern-sunglasses",
@@ -430,7 +430,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.7,
     "stock": 55,
-    "created_at": "2026-05-23T14:51:18.572Z"
+    "created_at": "2026-05-23T14:58:44.715Z"
   },
   {
     "id": "prod-aviator-gold-sunglasses",
@@ -442,7 +442,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.8,
     "stock": 45,
-    "created_at": "2026-05-24T14:51:18.572Z"
+    "created_at": "2026-05-24T14:58:44.715Z"
   },
   {
     "id": "prod-round-tortoise-sunglasses",
@@ -454,7 +454,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.6,
     "stock": 50,
-    "created_at": "2026-05-25T14:51:18.572Z"
+    "created_at": "2026-05-25T14:58:44.715Z"
   },
   {
     "id": "prod-cat-eye-sunglasses-black",
@@ -466,7 +466,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.7,
     "stock": 48,
-    "created_at": "2026-05-26T14:51:18.572Z"
+    "created_at": "2026-05-26T14:58:44.715Z"
   },
   {
     "id": "prod-oversized-sunglasses-brown",
@@ -478,7 +478,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.6,
     "stock": 42,
-    "created_at": "2026-05-27T14:51:18.572Z"
+    "created_at": "2026-05-27T14:58:44.715Z"
   },
   {
     "id": "prod-sport-sunglasses-polarized",
@@ -490,7 +490,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.8,
     "stock": 38,
-    "created_at": "2026-05-28T14:51:18.572Z"
+    "created_at": "2026-05-28T14:58:44.715Z"
   },
   {
     "id": "prod-wayfarer-sunglasses-navy",
@@ -502,7 +502,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.5,
     "stock": 60,
-    "created_at": "2026-05-29T14:51:18.572Z"
+    "created_at": "2026-05-29T14:58:44.715Z"
   },
   {
     "id": "prod-rimless-sunglasses-silver",
@@ -514,7 +514,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.6,
     "stock": 35,
-    "created_at": "2026-05-30T14:51:18.572Z"
+    "created_at": "2026-05-30T14:58:44.715Z"
   },
   {
     "id": "prod-optical-frame-acetate-black",
@@ -526,7 +526,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.5,
     "stock": 65,
-    "created_at": "2026-05-31T14:51:18.572Z"
+    "created_at": "2026-05-31T14:58:44.715Z"
   },
   {
     "id": "prod-optical-frame-metal-gold",
@@ -538,7 +538,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.6,
     "stock": 58,
-    "created_at": "2026-06-01T14:51:18.572Z"
+    "created_at": "2026-06-01T14:58:44.715Z"
   },
   {
     "id": "prod-optical-frame-round-clear",
@@ -550,7 +550,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.4,
     "stock": 70,
-    "created_at": "2026-06-02T14:51:18.572Z"
+    "created_at": "2026-06-02T14:58:44.715Z"
   },
   {
     "id": "prod-blue-light-glasses",
@@ -562,7 +562,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.7,
     "stock": 95,
-    "created_at": "2026-06-03T14:51:18.572Z"
+    "created_at": "2026-06-03T14:58:44.715Z"
   },
   {
     "id": "prod-mirrored-sunglasses-blue",
@@ -574,7 +574,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.5,
     "stock": 52,
-    "created_at": "2026-06-04T14:51:18.572Z"
+    "created_at": "2026-06-04T14:58:44.715Z"
   },
   {
     "id": "prod-vintage-sunglasses-green",
@@ -586,7 +586,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-glasses",
     "rating": 4.6,
     "stock": 44,
-    "created_at": "2026-06-05T14:51:18.572Z"
+    "created_at": "2026-06-05T14:58:44.715Z"
   },
   {
     "id": "prod-luxury-gold-watch",
@@ -598,7 +598,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.8,
     "stock": 30,
-    "created_at": "2026-06-06T14:51:18.572Z"
+    "created_at": "2026-06-06T14:58:44.715Z"
   },
   {
     "id": "prod-sport-watch",
@@ -610,7 +610,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.6,
     "stock": 45,
-    "created_at": "2026-06-07T14:51:18.572Z"
+    "created_at": "2026-06-07T14:58:44.715Z"
   },
   {
     "id": "prod-classic-leather-watch-brown",
@@ -622,7 +622,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.7,
     "stock": 40,
-    "created_at": "2026-06-08T14:51:18.572Z"
+    "created_at": "2026-06-08T14:58:44.715Z"
   },
   {
     "id": "prod-steel-chronograph-watch",
@@ -634,7 +634,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.8,
     "stock": 28,
-    "created_at": "2026-06-09T14:51:18.572Z"
+    "created_at": "2026-06-09T14:58:44.715Z"
   },
   {
     "id": "prod-minimal-watch-white-dial",
@@ -646,7 +646,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.6,
     "stock": 55,
-    "created_at": "2026-06-10T14:51:18.572Z"
+    "created_at": "2026-06-10T14:58:44.715Z"
   },
   {
     "id": "prod-diver-watch-blue",
@@ -658,7 +658,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.9,
     "stock": 22,
-    "created_at": "2026-06-11T14:51:18.572Z"
+    "created_at": "2026-06-11T14:58:44.715Z"
   },
   {
     "id": "prod-rose-gold-women-watch",
@@ -670,7 +670,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.8,
     "stock": 35,
-    "created_at": "2026-06-12T14:51:18.572Z"
+    "created_at": "2026-06-12T14:58:44.715Z"
   },
   {
     "id": "prod-mesh-band-watch-silver",
@@ -682,7 +682,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.5,
     "stock": 50,
-    "created_at": "2026-06-13T14:51:18.572Z"
+    "created_at": "2026-06-13T14:58:44.715Z"
   },
   {
     "id": "prod-skeleton-automatic-watch",
@@ -694,7 +694,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.9,
     "stock": 18,
-    "created_at": "2026-06-14T14:51:18.572Z"
+    "created_at": "2026-06-14T14:58:44.715Z"
   },
   {
     "id": "prod-pilot-watch-black",
@@ -706,7 +706,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.7,
     "stock": 32,
-    "created_at": "2026-06-15T14:51:18.572Z"
+    "created_at": "2026-06-15T14:58:44.715Z"
   },
   {
     "id": "prod-digital-sport-watch",
@@ -718,7 +718,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.4,
     "stock": 80,
-    "created_at": "2026-06-16T14:51:18.572Z"
+    "created_at": "2026-06-16T14:58:44.715Z"
   },
   {
     "id": "prod-smart-watch-black",
@@ -730,7 +730,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-watch",
     "rating": 4.7,
     "stock": 60,
-    "created_at": "2026-06-17T14:51:18.572Z"
+    "created_at": "2026-06-17T14:58:44.715Z"
   },
   {
     "id": "prod-leather-handbag-women",
@@ -742,7 +742,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-bag",
     "rating": 4.8,
     "stock": 50,
-    "created_at": "2026-06-21T14:51:18.572Z"
+    "created_at": "2026-06-21T14:58:44.715Z"
   },
   {
     "id": "prod-mens-messenger-bag",
@@ -754,7 +754,127 @@ export const seedProducts: Product[] = [
     "category_id": "cat-bag",
     "rating": 4.5,
     "stock": 65,
-    "created_at": "2026-06-22T14:51:18.572Z"
+    "created_at": "2026-06-22T14:58:44.715Z"
+  },
+  {
+    "id": "prod-leather-tote-bag-tan",
+    "name": "کیف توت چرم عسلی",
+    "slug": "leather-tote-bag-tan",
+    "description": "کیف توت جادار از چرم عسلی، مناسب کار و دانشگاه",
+    "price": 2650000,
+    "image_url": "/images/bag/leather-tote-bag-tan.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.7,
+    "stock": 45,
+    "created_at": "2026-06-23T14:58:44.715Z"
+  },
+  {
+    "id": "prod-crossbody-bag-black",
+    "name": "کیف دوشی زنانه مشکی",
+    "slug": "crossbody-bag-black",
+    "description": "کیف کراس‌بادی با بند قابل تنظیم و جیب مخفی پشتی",
+    "price": 1750000,
+    "image_url": "/images/bag/crossbody-bag-black.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.6,
+    "stock": 70,
+    "created_at": "2026-06-24T14:58:44.715Z"
+  },
+  {
+    "id": "prod-mini-shoulder-bag-red",
+    "name": "کیف کوچک دوشی قرمز",
+    "slug": "mini-shoulder-bag-red",
+    "description": "کیف مینیمال قرمز برای مهمانی و گردش‌های کوتاه",
+    "price": 1450000,
+    "image_url": "/images/bag/mini-shoulder-bag-red.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.5,
+    "stock": 60,
+    "created_at": "2026-06-25T14:58:44.715Z"
+  },
+  {
+    "id": "prod-leather-backpack-brown",
+    "name": "کوله‌پشتی چرم قهوه‌ای",
+    "slug": "leather-backpack-brown",
+    "description": "کوله چرم دست‌دوز با محفظه لپ‌تاپ ۱۵ اینچی",
+    "price": 3100000,
+    "image_url": "/images/bag/leather-backpack-brown.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.8,
+    "stock": 38,
+    "created_at": "2026-06-26T14:58:44.715Z"
+  },
+  {
+    "id": "prod-canvas-backpack-gray",
+    "name": "کوله‌پشتی کتان طوسی",
+    "slug": "canvas-backpack-gray",
+    "description": "کوله کتان سبک با بندهای اسفنجی و جیب بطری",
+    "price": 1650000,
+    "image_url": "/images/bag/canvas-backpack-gray.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.4,
+    "stock": 85,
+    "created_at": "2026-06-27T14:58:44.715Z"
+  },
+  {
+    "id": "prod-laptop-briefcase-black",
+    "name": "کیف اداری لپ‌تاپ مشکی",
+    "slug": "laptop-briefcase-black",
+    "description": "کیف اداری با محفظه ضربه‌گیر لپ‌تاپ و بند شانه‌ای جداشونده",
+    "price": 2850000,
+    "image_url": "/images/bag/laptop-briefcase-black.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.7,
+    "stock": 40,
+    "created_at": "2026-06-28T14:58:44.715Z"
+  },
+  {
+    "id": "prod-clutch-evening-gold",
+    "name": "کلاچ مجلسی طلایی",
+    "slug": "clutch-evening-gold",
+    "description": "کلاچ مجلسی با بدنه براق طلایی و زنجیر ظریف",
+    "price": 1350000,
+    "image_url": "/images/bag/clutch-evening-gold.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.6,
+    "stock": 55,
+    "created_at": "2026-06-29T14:58:44.715Z"
+  },
+  {
+    "id": "prod-bucket-bag-cream",
+    "name": "کیف باکت کرم",
+    "slug": "bucket-bag-cream",
+    "description": "کیف باکت با بند کشویی و آستر پارچه‌ای",
+    "price": 1890000,
+    "image_url": "/images/bag/bucket-bag-cream.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.5,
+    "stock": 48,
+    "created_at": "2026-06-30T14:58:44.715Z"
+  },
+  {
+    "id": "prod-travel-duffel-bag",
+    "name": "ساک سفری چرم",
+    "slug": "travel-duffel-bag",
+    "description": "ساک سفری بزرگ با دسته چرمی و بند دوشی قابل تنظیم",
+    "price": 3950000,
+    "image_url": "/images/bag/travel-duffel-bag.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.8,
+    "stock": 25,
+    "created_at": "2026-07-01T14:58:44.715Z"
+  },
+  {
+    "id": "prod-belt-bag-black",
+    "name": "کیف کمری مشکی",
+    "slug": "belt-bag-black",
+    "description": "کیف کمری جمع‌وجور با زیپ ضدآب، مناسب پیاده‌روی و سفر",
+    "price": 890000,
+    "image_url": "/images/bag/belt-bag-black.jpg",
+    "category_id": "cat-bag",
+    "rating": 4.4,
+    "stock": 110,
+    "created_at": "2026-07-02T14:58:44.715Z"
   },
   {
     "id": "prod-leather-belt-men",
@@ -766,7 +886,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-accessory",
     "rating": 4.4,
     "stock": 120,
-    "created_at": "2026-07-06T14:51:18.572Z"
+    "created_at": "2026-07-06T14:58:44.715Z"
   },
   {
     "id": "prod-womens-jewelry-set",
@@ -778,7 +898,7 @@ export const seedProducts: Product[] = [
     "category_id": "cat-accessory",
     "rating": 4.9,
     "stock": 25,
-    "created_at": "2026-07-07T14:51:18.572Z"
+    "created_at": "2026-07-07T14:58:44.715Z"
   }
 ];
 
@@ -791,7 +911,7 @@ export const seedBlogPosts: BlogPost[] = [
     "content": "در فصل پاییز ۱۴۰۵ شاهد بازگشت رنگ‌های گرم و خنثی هستیم. تن‌های کرم، قهوه‌ای و نارنجی از رنگ‌های اصلی این فصل هستند. استایل لایه‌ای همچنان محبوب است و می‌توانید با ترکیب پیراهن‌های نازک و کت‌های سبک، یک استایل شیک پاییزی بسازید. شلوارهای گشاد و کتان نیز جای خود را در کمد هر فرد مد‌پسند باز کرده‌اند. در انتخاب اکسسوری، ساعت‌های کلاسیک و عینک‌های آفتابی با فریم بزرگ ترند روز هستند.",
     "image_url": "/images/blog-1.jpg",
     "author": "سارا احمدی",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "post-sunglasses-buying-guide",
@@ -801,7 +921,7 @@ export const seedBlogPosts: BlogPost[] = [
     "content": "انتخاب عینک آفتابی مناسب فقط به مدل و ظاهر آن محدود نمی‌شود. باید به فرم صورت، کیفیت عدسی و محافظت در برابر اشعه UV توجه کنید. برای صورت‌های گرد، عینک‌های زاویه‌دار مناسب‌تر هستند. برای صورت‌های مربعی، عینک‌های گردتر انتخاب بهتری است. عدسی‌های پلاریزه برای رانندگی و فعالیت‌های بیرونی بسیار توصیه می‌شوند. همچنین فریم سبک و راحت برای استفاده طولانی‌مدت اهمیت دارد.",
     "image_url": "/images/blog-2.jpg",
     "author": "محمد رضایی",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "post-watch-buying-guide",
@@ -811,7 +931,7 @@ export const seedBlogPosts: BlogPost[] = [
     "content": "خرید ساعت مچی یکی از مهم‌ترین تصمیمات برای تکمیل استایل است. اولین نکته تعیین بودجه است. ساعت‌های مچی در قیمت‌های متنوعی موجود هستند. بعد از بودجه باید به سبک زندگی خود فکر کنید: ساعت اسپرت برای استفاده روزمره، ساعت کلاسیک برای مجالس و محیط‌های رسمی. جنس بدنه و بند نیز مهم است: استیل ضدزنگ، چرم طبیعی و سرامیک از بهترین گزینه‌ها هستند. در نهایت به اندازه دست و وزن ساعت نیز توجه کنید تا راحتی لازم را داشته باشد.",
     "image_url": "/images/blog-3.jpg",
     "author": "نگار کریمی",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   }
 ];
 
@@ -823,7 +943,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-classic-white-shirt-2",
@@ -832,7 +952,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-elegant-pink-blouse-1",
@@ -841,7 +961,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-elegant-pink-blouse-2",
@@ -850,7 +970,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-elegant-pink-blouse-3",
@@ -859,7 +979,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-oxford-blue-shirt-men-1",
@@ -868,7 +988,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-oxford-blue-shirt-men-2",
@@ -877,7 +997,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-silk-blouse-cream-women-1",
@@ -886,7 +1006,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-silk-blouse-cream-women-2",
@@ -895,7 +1015,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-silk-blouse-cream-women-3",
@@ -904,7 +1024,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-knit-sweater-gray-men-1",
@@ -913,7 +1033,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-knit-sweater-gray-men-2",
@@ -922,7 +1042,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-turtleneck-sweater-beige-women-1",
@@ -931,7 +1051,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-turtleneck-sweater-beige-women-2",
@@ -940,7 +1060,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-turtleneck-sweater-beige-women-3",
@@ -949,7 +1069,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-basic-tshirt-black-men-1",
@@ -958,7 +1078,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-basic-tshirt-black-men-2",
@@ -967,7 +1087,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-oversize-tshirt-white-women-1",
@@ -976,7 +1096,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-oversize-tshirt-white-women-2",
@@ -985,7 +1105,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-oversize-tshirt-white-women-3",
@@ -994,7 +1114,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-hoodie-charcoal-men-1",
@@ -1003,7 +1123,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-hoodie-charcoal-men-2",
@@ -1012,7 +1132,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-hoodie-blush-women-1",
@@ -1021,7 +1141,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-hoodie-blush-women-2",
@@ -1030,7 +1150,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "created_at": "2026-07-31T14:58:44.715Z"
   },
   {
     "id": "rev-hoodie-blush-women-3",
@@ -1039,7 +1159,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "created_at": "2026-08-01T14:58:44.715Z"
   },
   {
     "id": "rev-denim-jacket-men-1",
@@ -1048,7 +1168,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "created_at": "2026-07-31T14:58:44.715Z"
   },
   {
     "id": "rev-denim-jacket-men-2",
@@ -1057,7 +1177,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "created_at": "2026-08-01T14:58:44.715Z"
   },
   {
     "id": "rev-trench-coat-camel-women-1",
@@ -1066,7 +1186,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "created_at": "2026-08-01T14:58:44.715Z"
   },
   {
     "id": "rev-trench-coat-camel-women-2",
@@ -1075,7 +1195,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-02T14:51:18.572Z"
+    "created_at": "2026-08-02T14:58:44.715Z"
   },
   {
     "id": "rev-trench-coat-camel-women-3",
@@ -1084,7 +1204,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-03T14:51:18.572Z"
+    "created_at": "2026-08-03T14:58:44.715Z"
   },
   {
     "id": "rev-wool-blazer-navy-men-1",
@@ -1093,7 +1213,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-02T14:51:18.572Z"
+    "created_at": "2026-08-02T14:58:44.715Z"
   },
   {
     "id": "rev-wool-blazer-navy-men-2",
@@ -1102,7 +1222,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-03T14:51:18.572Z"
+    "created_at": "2026-08-03T14:58:44.715Z"
   },
   {
     "id": "rev-midi-dress-floral-women-1",
@@ -1111,7 +1231,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-03T14:51:18.572Z"
+    "created_at": "2026-08-03T14:58:44.715Z"
   },
   {
     "id": "rev-midi-dress-floral-women-2",
@@ -1120,7 +1240,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-04T14:51:18.572Z"
+    "created_at": "2026-08-04T14:58:44.715Z"
   },
   {
     "id": "rev-midi-dress-floral-women-3",
@@ -1129,7 +1249,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-05T14:51:18.572Z"
+    "created_at": "2026-08-05T14:58:44.715Z"
   },
   {
     "id": "rev-polo-shirt-green-men-1",
@@ -1138,7 +1258,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-04T14:51:18.572Z"
+    "created_at": "2026-08-04T14:58:44.715Z"
   },
   {
     "id": "rev-polo-shirt-green-men-2",
@@ -1147,7 +1267,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-05T14:51:18.572Z"
+    "created_at": "2026-08-05T14:58:44.715Z"
   },
   {
     "id": "rev-slim-jeans-men-1",
@@ -1156,7 +1276,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-05T14:51:18.572Z"
+    "created_at": "2026-08-05T14:58:44.715Z"
   },
   {
     "id": "rev-slim-jeans-men-2",
@@ -1165,7 +1285,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-06T14:51:18.572Z"
+    "created_at": "2026-08-06T14:58:44.715Z"
   },
   {
     "id": "rev-slim-jeans-men-3",
@@ -1174,7 +1294,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-07T14:51:18.572Z"
+    "created_at": "2026-08-07T14:58:44.715Z"
   },
   {
     "id": "rev-linen-pants-women-1",
@@ -1183,7 +1303,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-06T14:51:18.572Z"
+    "created_at": "2026-08-06T14:58:44.715Z"
   },
   {
     "id": "rev-linen-pants-women-2",
@@ -1192,7 +1312,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-07T14:51:18.572Z"
+    "created_at": "2026-08-07T14:58:44.715Z"
   },
   {
     "id": "rev-straight-jeans-dark-men-1",
@@ -1201,7 +1321,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-07T14:51:18.572Z"
+    "created_at": "2026-08-07T14:58:44.715Z"
   },
   {
     "id": "rev-straight-jeans-dark-men-2",
@@ -1210,7 +1330,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-08T14:51:18.572Z"
+    "created_at": "2026-08-08T14:58:44.715Z"
   },
   {
     "id": "rev-straight-jeans-dark-men-3",
@@ -1219,7 +1339,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-09T14:51:18.572Z"
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-mom-jeans-light-women-1",
@@ -1228,7 +1348,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-08T14:51:18.572Z"
+    "created_at": "2026-08-08T14:58:44.715Z"
   },
   {
     "id": "rev-mom-jeans-light-women-2",
@@ -1237,7 +1357,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-09T14:51:18.572Z"
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-chino-beige-men-1",
@@ -1246,7 +1366,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-09T14:51:18.572Z"
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-chino-beige-men-2",
@@ -1255,7 +1375,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-10T14:51:18.572Z"
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-chino-beige-men-3",
@@ -1264,7 +1384,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-chino-olive-men-1",
@@ -1273,7 +1393,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-10T14:51:18.572Z"
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-chino-olive-men-2",
@@ -1282,7 +1402,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-wide-leg-trousers-black-women-1",
@@ -1291,7 +1411,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-wide-leg-trousers-black-women-2",
@@ -1300,7 +1420,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "rev-wide-leg-trousers-black-women-3",
@@ -1309,7 +1429,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   },
   {
     "id": "rev-formal-trousers-charcoal-men-1",
@@ -1318,7 +1438,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "rev-formal-trousers-charcoal-men-2",
@@ -1327,7 +1447,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   },
   {
     "id": "rev-cargo-pants-khaki-men-1",
@@ -1336,7 +1456,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   },
   {
     "id": "rev-cargo-pants-khaki-men-2",
@@ -1345,7 +1465,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-14T14:51:18.572Z"
+    "created_at": "2026-08-14T14:58:44.715Z"
   },
   {
     "id": "rev-cargo-pants-khaki-men-3",
@@ -1354,7 +1474,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-cargo-pants-sage-women-1",
@@ -1363,7 +1483,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-14T14:51:18.572Z"
+    "created_at": "2026-08-14T14:58:44.715Z"
   },
   {
     "id": "rev-cargo-pants-sage-women-2",
@@ -1372,7 +1492,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-jogger-navy-men-1",
@@ -1381,7 +1501,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-jogger-navy-men-2",
@@ -1390,7 +1510,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-jogger-navy-men-3",
@@ -1399,7 +1519,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-jogger-gray-women-1",
@@ -1408,7 +1528,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-jogger-gray-women-2",
@@ -1417,7 +1537,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-corduroy-pants-brown-men-1",
@@ -1426,7 +1546,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-corduroy-pants-brown-men-2",
@@ -1435,7 +1555,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-corduroy-pants-brown-men-3",
@@ -1444,7 +1564,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-paperbag-pants-cream-women-1",
@@ -1453,7 +1573,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-paperbag-pants-cream-women-2",
@@ -1462,7 +1582,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-leggings-black-women-1",
@@ -1471,7 +1591,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-leggings-black-women-2",
@@ -1480,7 +1600,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-leggings-black-women-3",
@@ -1489,7 +1609,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-luxury-sunglasses-classic-1",
@@ -1498,7 +1618,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-luxury-sunglasses-classic-2",
@@ -1507,7 +1627,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-modern-sunglasses-1",
@@ -1516,7 +1636,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-modern-sunglasses-2",
@@ -1525,7 +1645,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-modern-sunglasses-3",
@@ -1534,7 +1654,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-aviator-gold-sunglasses-1",
@@ -1543,7 +1663,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-aviator-gold-sunglasses-2",
@@ -1552,7 +1672,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-round-tortoise-sunglasses-1",
@@ -1561,7 +1681,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-round-tortoise-sunglasses-2",
@@ -1570,7 +1690,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-round-tortoise-sunglasses-3",
@@ -1579,7 +1699,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "created_at": "2026-07-31T14:58:44.715Z"
   },
   {
     "id": "rev-cat-eye-sunglasses-black-1",
@@ -1588,7 +1708,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-cat-eye-sunglasses-black-2",
@@ -1597,7 +1717,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "created_at": "2026-07-31T14:58:44.715Z"
   },
   {
     "id": "rev-oversized-sunglasses-brown-1",
@@ -1606,7 +1726,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "created_at": "2026-07-31T14:58:44.715Z"
   },
   {
     "id": "rev-oversized-sunglasses-brown-2",
@@ -1615,7 +1735,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "created_at": "2026-08-01T14:58:44.715Z"
   },
   {
     "id": "rev-oversized-sunglasses-brown-3",
@@ -1624,7 +1744,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-02T14:51:18.572Z"
+    "created_at": "2026-08-02T14:58:44.715Z"
   },
   {
     "id": "rev-sport-sunglasses-polarized-1",
@@ -1633,7 +1753,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "created_at": "2026-08-01T14:58:44.715Z"
   },
   {
     "id": "rev-sport-sunglasses-polarized-2",
@@ -1642,7 +1762,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-02T14:51:18.572Z"
+    "created_at": "2026-08-02T14:58:44.715Z"
   },
   {
     "id": "rev-wayfarer-sunglasses-navy-1",
@@ -1651,7 +1771,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-02T14:51:18.572Z"
+    "created_at": "2026-08-02T14:58:44.715Z"
   },
   {
     "id": "rev-wayfarer-sunglasses-navy-2",
@@ -1660,7 +1780,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-03T14:51:18.572Z"
+    "created_at": "2026-08-03T14:58:44.715Z"
   },
   {
     "id": "rev-wayfarer-sunglasses-navy-3",
@@ -1669,7 +1789,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-04T14:51:18.572Z"
+    "created_at": "2026-08-04T14:58:44.715Z"
   },
   {
     "id": "rev-rimless-sunglasses-silver-1",
@@ -1678,7 +1798,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-03T14:51:18.572Z"
+    "created_at": "2026-08-03T14:58:44.715Z"
   },
   {
     "id": "rev-rimless-sunglasses-silver-2",
@@ -1687,7 +1807,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-04T14:51:18.572Z"
+    "created_at": "2026-08-04T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-acetate-black-1",
@@ -1696,7 +1816,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-04T14:51:18.572Z"
+    "created_at": "2026-08-04T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-acetate-black-2",
@@ -1705,7 +1825,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-05T14:51:18.572Z"
+    "created_at": "2026-08-05T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-acetate-black-3",
@@ -1714,7 +1834,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-06T14:51:18.572Z"
+    "created_at": "2026-08-06T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-metal-gold-1",
@@ -1723,7 +1843,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-05T14:51:18.572Z"
+    "created_at": "2026-08-05T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-metal-gold-2",
@@ -1732,7 +1852,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-06T14:51:18.572Z"
+    "created_at": "2026-08-06T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-round-clear-1",
@@ -1741,7 +1861,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-06T14:51:18.572Z"
+    "created_at": "2026-08-06T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-round-clear-2",
@@ -1750,7 +1870,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-07T14:51:18.572Z"
+    "created_at": "2026-08-07T14:58:44.715Z"
   },
   {
     "id": "rev-optical-frame-round-clear-3",
@@ -1759,7 +1879,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-08T14:51:18.572Z"
+    "created_at": "2026-08-08T14:58:44.715Z"
   },
   {
     "id": "rev-blue-light-glasses-1",
@@ -1768,7 +1888,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-07T14:51:18.572Z"
+    "created_at": "2026-08-07T14:58:44.715Z"
   },
   {
     "id": "rev-blue-light-glasses-2",
@@ -1777,7 +1897,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-08T14:51:18.572Z"
+    "created_at": "2026-08-08T14:58:44.715Z"
   },
   {
     "id": "rev-mirrored-sunglasses-blue-1",
@@ -1786,7 +1906,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-08T14:51:18.572Z"
+    "created_at": "2026-08-08T14:58:44.715Z"
   },
   {
     "id": "rev-mirrored-sunglasses-blue-2",
@@ -1795,7 +1915,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-09T14:51:18.572Z"
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-mirrored-sunglasses-blue-3",
@@ -1804,7 +1924,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-10T14:51:18.572Z"
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-vintage-sunglasses-green-1",
@@ -1813,7 +1933,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-08-09T14:51:18.572Z"
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-vintage-sunglasses-green-2",
@@ -1822,7 +1942,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-10T14:51:18.572Z"
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-luxury-gold-watch-1",
@@ -1831,7 +1951,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-10T14:51:18.572Z"
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-luxury-gold-watch-2",
@@ -1840,7 +1960,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-luxury-gold-watch-3",
@@ -1849,7 +1969,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "rev-sport-watch-1",
@@ -1858,7 +1978,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-08-11T14:51:18.572Z"
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-sport-watch-2",
@@ -1867,7 +1987,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "rev-classic-leather-watch-brown-1",
@@ -1876,7 +1996,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-12T14:51:18.572Z"
+    "created_at": "2026-08-12T14:58:44.715Z"
   },
   {
     "id": "rev-classic-leather-watch-brown-2",
@@ -1885,7 +2005,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   },
   {
     "id": "rev-classic-leather-watch-brown-3",
@@ -1894,7 +2014,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-08-14T14:51:18.572Z"
+    "created_at": "2026-08-14T14:58:44.715Z"
   },
   {
     "id": "rev-steel-chronograph-watch-1",
@@ -1903,7 +2023,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-08-13T14:51:18.572Z"
+    "created_at": "2026-08-13T14:58:44.715Z"
   },
   {
     "id": "rev-steel-chronograph-watch-2",
@@ -1912,7 +2032,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-08-14T14:51:18.572Z"
+    "created_at": "2026-08-14T14:58:44.715Z"
   },
   {
     "id": "rev-minimal-watch-white-dial-1",
@@ -1921,7 +2041,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-14T14:51:18.572Z"
+    "created_at": "2026-08-14T14:58:44.715Z"
   },
   {
     "id": "rev-minimal-watch-white-dial-2",
@@ -1930,7 +2050,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-minimal-watch-white-dial-3",
@@ -1939,7 +2059,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-diver-watch-blue-1",
@@ -1948,7 +2068,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-21T14:51:18.572Z"
+    "created_at": "2026-07-21T14:58:44.715Z"
   },
   {
     "id": "rev-diver-watch-blue-2",
@@ -1957,7 +2077,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-rose-gold-women-watch-1",
@@ -1966,7 +2086,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-22T14:51:18.572Z"
+    "created_at": "2026-07-22T14:58:44.715Z"
   },
   {
     "id": "rev-rose-gold-women-watch-2",
@@ -1975,7 +2095,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-rose-gold-women-watch-3",
@@ -1984,7 +2104,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-mesh-band-watch-silver-1",
@@ -1993,7 +2113,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-23T14:51:18.572Z"
+    "created_at": "2026-07-23T14:58:44.715Z"
   },
   {
     "id": "rev-mesh-band-watch-silver-2",
@@ -2002,7 +2122,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-skeleton-automatic-watch-1",
@@ -2011,7 +2131,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-24T14:51:18.572Z"
+    "created_at": "2026-07-24T14:58:44.715Z"
   },
   {
     "id": "rev-skeleton-automatic-watch-2",
@@ -2020,7 +2140,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-skeleton-automatic-watch-3",
@@ -2029,7 +2149,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-pilot-watch-black-1",
@@ -2038,7 +2158,7 @@ export const seedReviews: Review[] = [
     "name": "نگار صادقی",
     "rating": 4,
     "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-25T14:51:18.572Z"
+    "created_at": "2026-07-25T14:58:44.715Z"
   },
   {
     "id": "rev-pilot-watch-black-2",
@@ -2047,7 +2167,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-digital-sport-watch-1",
@@ -2056,7 +2176,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-26T14:51:18.572Z"
+    "created_at": "2026-07-26T14:58:44.715Z"
   },
   {
     "id": "rev-digital-sport-watch-2",
@@ -2065,7 +2185,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-digital-sport-watch-3",
@@ -2074,7 +2194,7 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-smart-watch-black-1",
@@ -2083,7 +2203,7 @@ export const seedReviews: Review[] = [
     "name": "علی محمدی",
     "rating": 5,
     "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
-    "created_at": "2026-07-27T14:51:18.572Z"
+    "created_at": "2026-07-27T14:58:44.715Z"
   },
   {
     "id": "rev-smart-watch-black-2",
@@ -2092,7 +2212,7 @@ export const seedReviews: Review[] = [
     "name": "زهرا نوری",
     "rating": 5,
     "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-leather-handbag-women-1",
@@ -2101,7 +2221,7 @@ export const seedReviews: Review[] = [
     "name": "مریم حسینی",
     "rating": 4,
     "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-07-28T14:51:18.572Z"
+    "created_at": "2026-07-28T14:58:44.715Z"
   },
   {
     "id": "rev-leather-handbag-women-2",
@@ -2110,7 +2230,7 @@ export const seedReviews: Review[] = [
     "name": "سینا اکبری",
     "rating": 4,
     "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-leather-handbag-women-3",
@@ -2119,7 +2239,7 @@ export const seedReviews: Review[] = [
     "name": "رضا تهرانی",
     "rating": 5,
     "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
   },
   {
     "id": "rev-mens-messenger-bag-1",
@@ -2128,7 +2248,7 @@ export const seedReviews: Review[] = [
     "name": "حسین کریمی",
     "rating": 5,
     "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
-    "created_at": "2026-07-29T14:51:18.572Z"
+    "created_at": "2026-07-29T14:58:44.715Z"
   },
   {
     "id": "rev-mens-messenger-bag-2",
@@ -2137,51 +2257,276 @@ export const seedReviews: Review[] = [
     "name": "فاطمه رضایی",
     "rating": 5,
     "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "created_at": "2026-07-30T14:58:44.715Z"
+  },
+  {
+    "id": "rev-leather-tote-bag-tan-1",
+    "product_id": "prod-leather-tote-bag-tan",
+    "user_id": null,
+    "name": "زهرا نوری",
+    "rating": 5,
+    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
+    "created_at": "2026-07-30T14:58:44.715Z"
+  },
+  {
+    "id": "rev-leather-tote-bag-tan-2",
+    "product_id": "prod-leather-tote-bag-tan",
+    "user_id": null,
+    "name": "نگار صادقی",
+    "rating": 4,
+    "comment": "جنس خوبی داره و ارزش خرید داره.",
+    "created_at": "2026-07-31T14:58:44.715Z"
+  },
+  {
+    "id": "rev-leather-tote-bag-tan-3",
+    "product_id": "prod-leather-tote-bag-tan",
+    "user_id": null,
+    "name": "مریم حسینی",
+    "rating": 4,
+    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
+    "created_at": "2026-08-01T14:58:44.715Z"
+  },
+  {
+    "id": "rev-crossbody-bag-black-1",
+    "product_id": "prod-crossbody-bag-black",
+    "user_id": null,
+    "name": "سینا اکبری",
+    "rating": 4,
+    "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
+    "created_at": "2026-07-31T14:58:44.715Z"
+  },
+  {
+    "id": "rev-crossbody-bag-black-2",
+    "product_id": "prod-crossbody-bag-black",
+    "user_id": null,
+    "name": "رضا تهرانی",
+    "rating": 5,
+    "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
+    "created_at": "2026-08-01T14:58:44.715Z"
+  },
+  {
+    "id": "rev-mini-shoulder-bag-red-1",
+    "product_id": "prod-mini-shoulder-bag-red",
+    "user_id": null,
+    "name": "فاطمه رضایی",
+    "rating": 5,
+    "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
+    "created_at": "2026-08-01T14:58:44.715Z"
+  },
+  {
+    "id": "rev-mini-shoulder-bag-red-2",
+    "product_id": "prod-mini-shoulder-bag-red",
+    "user_id": null,
+    "name": "علی محمدی",
+    "rating": 5,
+    "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
+    "created_at": "2026-08-02T14:58:44.715Z"
+  },
+  {
+    "id": "rev-mini-shoulder-bag-red-3",
+    "product_id": "prod-mini-shoulder-bag-red",
+    "user_id": null,
+    "name": "زهرا نوری",
+    "rating": 5,
+    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
+    "created_at": "2026-08-03T14:58:44.715Z"
+  },
+  {
+    "id": "rev-leather-backpack-brown-1",
+    "product_id": "prod-leather-backpack-brown",
+    "user_id": null,
+    "name": "نگار صادقی",
+    "rating": 4,
+    "comment": "جنس خوبی داره و ارزش خرید داره.",
+    "created_at": "2026-08-02T14:58:44.715Z"
+  },
+  {
+    "id": "rev-leather-backpack-brown-2",
+    "product_id": "prod-leather-backpack-brown",
+    "user_id": null,
+    "name": "مریم حسینی",
+    "rating": 4,
+    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
+    "created_at": "2026-08-03T14:58:44.715Z"
+  },
+  {
+    "id": "rev-canvas-backpack-gray-1",
+    "product_id": "prod-canvas-backpack-gray",
+    "user_id": null,
+    "name": "رضا تهرانی",
+    "rating": 5,
+    "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
+    "created_at": "2026-08-03T14:58:44.715Z"
+  },
+  {
+    "id": "rev-canvas-backpack-gray-2",
+    "product_id": "prod-canvas-backpack-gray",
+    "user_id": null,
+    "name": "حسین کریمی",
+    "rating": 5,
+    "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
+    "created_at": "2026-08-04T14:58:44.715Z"
+  },
+  {
+    "id": "rev-canvas-backpack-gray-3",
+    "product_id": "prod-canvas-backpack-gray",
+    "user_id": null,
+    "name": "فاطمه رضایی",
+    "rating": 5,
+    "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
+    "created_at": "2026-08-05T14:58:44.715Z"
+  },
+  {
+    "id": "rev-laptop-briefcase-black-1",
+    "product_id": "prod-laptop-briefcase-black",
+    "user_id": null,
+    "name": "علی محمدی",
+    "rating": 5,
+    "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
+    "created_at": "2026-08-04T14:58:44.715Z"
+  },
+  {
+    "id": "rev-laptop-briefcase-black-2",
+    "product_id": "prod-laptop-briefcase-black",
+    "user_id": null,
+    "name": "زهرا نوری",
+    "rating": 5,
+    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
+    "created_at": "2026-08-05T14:58:44.715Z"
+  },
+  {
+    "id": "rev-clutch-evening-gold-1",
+    "product_id": "prod-clutch-evening-gold",
+    "user_id": null,
+    "name": "مریم حسینی",
+    "rating": 4,
+    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
+    "created_at": "2026-08-05T14:58:44.715Z"
+  },
+  {
+    "id": "rev-clutch-evening-gold-2",
+    "product_id": "prod-clutch-evening-gold",
+    "user_id": null,
+    "name": "سینا اکبری",
+    "rating": 4,
+    "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
+    "created_at": "2026-08-06T14:58:44.715Z"
+  },
+  {
+    "id": "rev-clutch-evening-gold-3",
+    "product_id": "prod-clutch-evening-gold",
+    "user_id": null,
+    "name": "رضا تهرانی",
+    "rating": 5,
+    "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
+    "created_at": "2026-08-07T14:58:44.715Z"
+  },
+  {
+    "id": "rev-bucket-bag-cream-1",
+    "product_id": "prod-bucket-bag-cream",
+    "user_id": null,
+    "name": "حسین کریمی",
+    "rating": 5,
+    "comment": "دقیقاً همون چیزی بود که می‌خواستم. پیشنهاد می‌کنم.",
+    "created_at": "2026-08-06T14:58:44.715Z"
+  },
+  {
+    "id": "rev-bucket-bag-cream-2",
+    "product_id": "prod-bucket-bag-cream",
+    "user_id": null,
+    "name": "فاطمه رضایی",
+    "rating": 5,
+    "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
+    "created_at": "2026-08-07T14:58:44.715Z"
+  },
+  {
+    "id": "rev-travel-duffel-bag-1",
+    "product_id": "prod-travel-duffel-bag",
+    "user_id": null,
+    "name": "زهرا نوری",
+    "rating": 5,
+    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
+    "created_at": "2026-08-07T14:58:44.715Z"
+  },
+  {
+    "id": "rev-travel-duffel-bag-2",
+    "product_id": "prod-travel-duffel-bag",
+    "user_id": null,
+    "name": "نگار صادقی",
+    "rating": 4,
+    "comment": "جنس خوبی داره و ارزش خرید داره.",
+    "created_at": "2026-08-08T14:58:44.715Z"
+  },
+  {
+    "id": "rev-travel-duffel-bag-3",
+    "product_id": "prod-travel-duffel-bag",
+    "user_id": null,
+    "name": "مریم حسینی",
+    "rating": 4,
+    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
+    "created_at": "2026-08-09T14:58:44.715Z"
+  },
+  {
+    "id": "rev-belt-bag-black-1",
+    "product_id": "prod-belt-bag-black",
+    "user_id": null,
+    "name": "سینا اکبری",
+    "rating": 4,
+    "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
+    "created_at": "2026-08-08T14:58:44.715Z"
+  },
+  {
+    "id": "rev-belt-bag-black-2",
+    "product_id": "prod-belt-bag-black",
+    "user_id": null,
+    "name": "رضا تهرانی",
+    "rating": 5,
+    "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-leather-belt-men-1",
     "product_id": "prod-leather-belt-men",
     "user_id": null,
-    "name": "زهرا نوری",
+    "name": "فاطمه رضایی",
     "rating": 5,
-    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
-    "created_at": "2026-07-30T14:51:18.572Z"
+    "comment": "خرید دوم من از این فروشگاهه، همیشه راضی بودم.",
+    "created_at": "2026-08-09T14:58:44.715Z"
   },
   {
     "id": "rev-leather-belt-men-2",
     "product_id": "prod-leather-belt-men",
     "user_id": null,
-    "name": "نگار صادقی",
-    "rating": 4,
-    "comment": "جنس خوبی داره و ارزش خرید داره.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "name": "علی محمدی",
+    "rating": 5,
+    "comment": "کیفیت ساخت عالی و کاملاً مطابق توضیحات. راضی هستم.",
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-leather-belt-men-3",
     "product_id": "prod-leather-belt-men",
     "user_id": null,
-    "name": "مریم حسینی",
-    "rating": 4,
-    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "name": "زهرا نوری",
+    "rating": 5,
+    "comment": "بسته‌بندی مرتب و کیفیت بالاتر از انتظار.",
+    "created_at": "2026-08-11T14:58:44.715Z"
   },
   {
     "id": "rev-womens-jewelry-set-1",
     "product_id": "prod-womens-jewelry-set",
     "user_id": null,
-    "name": "سینا اکبری",
+    "name": "نگار صادقی",
     "rating": 4,
-    "comment": "در مجموع خوبه، رنگش کمی با عکس تفاوت داره.",
-    "created_at": "2026-07-31T14:51:18.572Z"
+    "comment": "جنس خوبی داره و ارزش خرید داره.",
+    "created_at": "2026-08-10T14:58:44.715Z"
   },
   {
     "id": "rev-womens-jewelry-set-2",
     "product_id": "prod-womens-jewelry-set",
     "user_id": null,
-    "name": "رضا تهرانی",
-    "rating": 5,
-    "comment": "کیفیت و قیمت متعادل، ارسال هم به‌موقع انجام شد.",
-    "created_at": "2026-08-01T14:51:18.572Z"
+    "name": "مریم حسینی",
+    "rating": 4,
+    "comment": "کیفیت خوبه و ارسال سریع بود، فقط قیمت کمی بالاست.",
+    "created_at": "2026-08-11T14:58:44.715Z"
   }
 ];
