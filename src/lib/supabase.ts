@@ -92,7 +92,7 @@ export type Review = {
 type Row = Record<string, any>;
 type Db = Record<string, Row[]>;
 
-const DB_KEY = 'modara-mock-db-v3';
+const DB_KEY = 'modara-mock-db-v4';
 const SESSION_KEY = 'modara-mock-session-v1';
 const USERS_KEY = 'modara-mock-users-v1';
 
@@ -224,12 +224,60 @@ function seed(): Db {
     P('p-pants-14', 'شلوار گشاد بژ زنانه', 'beige-wideleg-pants', 'شلوار گشاد زنانه با رنگ بژ، مناسب استایل کژوال', 1250000, '/images/prod-pants-14.jpg', c.pants.id, 4.6, 60, 5_900_000),
     P('p-glasses-3', 'عینک آفتابی اسپرت', 'sport-aviator-sunglasses', 'عینک آفتابی اسپرت با عدسی پلاریزه و فریم سبک، مناسب فعالیت‌های روزانه', 1450000, '/images/prod-glasses-3.jpg', c.glasses.id, 4.6, 60, 6_800_000),
     P('p-glasses-4', 'عینک طبی کلاسیک مشکی', 'classic-optical-glasses', 'عینک طبی با فریم مشکی کلاسیک و عدسی باکیفیت، مناسب استفاده روزمره', 980000, '/images/prod-glasses-4.jpg', c.glasses.id, 4.5, 85, 6_700_000),
+
+    // ---- New glasses (added) ----
+    P('p-glasses-5', 'عینک آفتابی گرد وینتیج', 'round-vintage-sunglasses', 'عینک آفتابی گرد با فریم متال و طراحی رترو', 1550000, '/images/prod-glasses-5.jpg', c.glasses.id, 4.6, 50, 6_600_000),
+    P('p-glasses-6', 'عینک آفتابی عدسی گرادیان', 'gradient-sunglasses', 'عینک آفتابی با عدسی گرادیان قهوه‌ای، مناسب استایل روزمره', 1480000, '/images/prod-glasses-6.jpg', c.glasses.id, 4.7, 55, 6_500_000),
+    P('p-glasses-7', 'عینک آفتابی گربه‌ای', 'cateye-sunglasses', 'عینک آفتابی زنانه با فریم گربه‌ای و طراحی جسور', 1650000, '/images/prod-glasses-7.jpg', c.glasses.id, 4.7, 45, 6_400_000),
+    P('p-glasses-8', 'عینک فریم شفاف', 'clear-frame-glasses', 'عینک با فریم شفاف و طراحی مدرن، مناسب استایل مینیمال', 1050000, '/images/prod-glasses-8.jpg', c.glasses.id, 4.5, 70, 6_300_000),
+    P('p-glasses-9', 'عینک آفتابی طلایی', 'gold-aviator-sunglasses', 'عینک آفتابی با فریم طلایی و عدسی کلاسیک', 1750000, '/images/prod-glasses-9.jpg', c.glasses.id, 4.7, 40, 6_200_000),
+    P('p-glasses-10', 'عینک طبی مربعی مشکی', 'square-black-glasses', 'عینک طبی با فریم مربعی مشکی و طراحی شیک', 1120000, '/images/prod-glasses-10.jpg', c.glasses.id, 4.5, 80, 6_100_000),
+    P('p-glasses-11', 'عینک آفتابی اسپرت آینه‌ای', 'mirrored-sport-sunglasses', 'عینک آفتابی با عدسی آینه‌ای، مناسب ورزش و فضای باز', 1580000, '/images/prod-glasses-11.jpg', c.glasses.id, 4.6, 50, 6_000_000),
+    P('p-glasses-12', 'عینک گرد رترو', 'tortoiseshell-round-glasses', 'عینک با فریم رترو و عدسی کلاسیک، مناسب استایل خاص', 1280000, '/images/prod-glasses-12.jpg', c.glasses.id, 4.5, 60, 5_900_000),
+    P('p-glasses-13', 'عینک آفتابی عدسی سبز', 'green-lens-wayfarer', 'عینک آفتابی با عدسی سبز پلاریزه و فریم مشکی', 1620000, '/images/prod-glasses-13.jpg', c.glasses.id, 4.6, 45, 5_800_000),
+    P('p-glasses-14', 'عینک زنانه باریک', 'thin-rim-women-glasses', 'عینک زنانه با فریم باریک و طراحی ظریف', 1350000, '/images/prod-glasses-14.jpg', c.glasses.id, 4.7, 55, 5_700_000),
     P('p-watch-3', 'ساعت مچی زنانه رزگلد', 'rosegold-women-watch', 'ساعت مچی زنانه با بدنه رزگلد و طراحی ظریف، مناسب استایل رسمی', 3900000, '/images/prod-watch-3.jpg', c.watch.id, 4.8, 35, 6_600_000),
     P('p-watch-4', 'ساعت مچی کلاسیک چرمی', 'classic-leather-watch', 'ساعت مچی کلاسیک با بند چرم طبیعی و صفحه مینیمال، مناسب آقایان', 3100000, '/images/prod-watch-4.jpg', c.watch.id, 4.7, 40, 6_500_000),
+
+    // ---- New watches (added) ----
+    P('p-watch-5', 'ساعت اسپرت استیل', 'steel-chronograph', 'ساعت اسپرت با بدنه استیل و قابلیت کرونوگراف', 3500000, '/images/prod-watch-5.jpg', c.watch.id, 4.7, 35, 6_400_000),
+    P('p-watch-6', 'ساعت مینیمال مشکی', 'minimalist-black-watch', 'ساعت مینیمال با صفحه مشکی و بند مشبک', 2750000, '/images/prod-watch-6.jpg', c.watch.id, 4.6, 40, 6_300_000),
+    P('p-watch-7', 'ساعت زنانه طلایی', 'gold-ladies-watch', 'ساعت زنانه با صفحه سفید و بدنه طلایی، مناسب مجالس', 3650000, '/images/prod-watch-7.jpg', c.watch.id, 4.8, 30, 6_200_000),
+    P('p-watch-8', 'ساعت غواصی', 'black-diver-watch', 'ساعت غواصی مقاوم با قابلیت ضدآب بالا', 2950000, '/images/prod-watch-8.jpg', c.watch.id, 4.7, 35, 6_100_000),
+    P('p-watch-9', 'ساعت صحرایی', 'navy-nato-watch', 'ساعت صحرایی با بند ناتو سرمه‌ای و طراحی کلاسیک', 2250000, '/images/prod-watch-9.jpg', c.watch.id, 4.6, 40, 6_000_000),
+    P('p-watch-10', 'ساعت هوشمند', 'silver-smartwatch', 'ساعت هوشمند با صفحه لمسی و بند مشکی، مناسب سبک زندگی مدرن', 4800000, '/images/prod-watch-10.jpg', c.watch.id, 4.7, 25, 5_900_000),
+    P('p-watch-11', 'ساعت اسکلت', 'skeleton-openheart-watch', 'ساعت با صفحه اسکلت و طراحی فنی لوکس', 5200000, '/images/prod-watch-11.jpg', c.watch.id, 4.8, 20, 5_800_000),
+    P('p-watch-12', 'ساعت زنانه صورتی', 'pink-ladies-watch', 'ساعت زنانه با بند استیل صورتی و طراحی شیک', 3450000, '/images/prod-watch-12.jpg', c.watch.id, 4.7, 30, 5_700_000),
+    P('p-watch-13', 'ساعت رسمی چرم قهوه‌ای', 'brown-leather-dress-watch', 'ساعت رسمی با بند چرم قهوه‌ای و صفحه ساده', 3200000, '/images/prod-watch-13.jpg', c.watch.id, 4.7, 35, 5_600_000),
+    P('p-watch-14', 'ساعت کلاسیک مستطیلی طلایی', 'gold-rectangular-watch', 'ساعت با صفحه مستطیلی طلایی و طراحی وینتیج', 4100000, '/images/prod-watch-14.jpg', c.watch.id, 4.8, 25, 5_500_000),
     P('p-bag-3', 'کوله‌پشتی چرم مردانه', 'men-leather-backpack', 'کوله‌پشتی چرم طبیعی مردانه با جیب‌های متعدد، مناسب کار و سفر', 2100000, '/images/prod-bag-3.jpg', c.bag.id, 4.6, 55, 6_400_000),
     P('p-bag-4', 'کیف کلاچ زنانه مشکی', 'black-clutch-bag', 'کیف کلاچ زنانه با طراحی شیک و بند ظریف، مناسب مهمانی و مجالس', 1650000, '/images/prod-bag-4.jpg', c.bag.id, 4.7, 60, 6_300_000),
+
+    // ---- New bags (added) ----
+    P('p-bag-5', 'کیف دستی چرم قهوه‌ای', 'tan-leather-handbag', 'کیف دستی زنانه از چرم طبیعی با رنگ قهوه‌ای روشن', 2450000, '/images/prod-bag-5.jpg', c.bag.id, 4.7, 45, 6_200_000),
+    P('p-bag-6', 'کیف چرم مردانه', 'black-leather-briefcase', 'کیف چرم مشکی مردانه با فضای داخلی مناسب، برای محیط کار', 2650000, '/images/prod-bag-6.jpg', c.bag.id, 4.7, 40, 6_100_000),
+    P('p-bag-7', 'کیف توت پارچه‌ای', 'canvas-tote-bag', 'کیف توت از پارچه برزنتی مقاوم، مناسب خرید روزانه', 850000, '/images/prod-bag-7.jpg', c.bag.id, 4.5, 80, 6_000_000),
+    P('p-bag-8', 'کیف دوشی کوییلت', 'quilted-crossbody', 'کیف دوشی کوییلت با بند قابل تنظیم، مناسب استایل روزمره', 1850000, '/images/prod-bag-8.jpg', c.bag.id, 4.6, 55, 5_900_000),
+    P('p-bag-9', 'کیف زنانه قرمز', 'red-shoulder-bag', 'کیف زنانه قرمز با طراحی جسور، مناسب مجالس', 1950000, '/images/prod-bag-9.jpg', c.bag.id, 4.6, 50, 5_800_000),
+    P('p-bag-10', 'کیف مسافرتی', 'travel-duffel-bag', 'کیف مسافرتی بزرگ با جیب‌های متعدد و دسته محکم', 1750000, '/images/prod-bag-10.jpg', c.bag.id, 4.5, 45, 5_700_000),
+    P('p-bag-11', 'کیف مجلسی مرواریدی', 'pearl-evening-clutch', 'کیف مجلسی با سطح مرواریدی مشکی، مناسب مراسم رسمی', 2250000, '/images/prod-bag-11.jpg', c.bag.id, 4.8, 35, 5_600_000),
+    P('p-bag-12', 'کیف کمری چرم', 'brown-waist-bag', 'کیف کمری چرم قهوه‌ای، مناسب استایل اسپرت و شهری', 1150000, '/images/prod-bag-12.jpg', c.bag.id, 4.5, 70, 5_500_000),
+    P('p-bag-13', 'کیف مینی سفید', 'mini-white-handbag', 'کیف مینی سفید با طراحی ظریف و بند طلایی', 1650000, '/images/prod-bag-13.jpg', c.bag.id, 4.7, 50, 5_400_000),
+    P('p-bag-14', 'کیف حصیری تابستانی', 'rattan-straw-bag', 'کیف حصیری بافته‌شده، مناسب روزهای تابستان', 980000, '/images/prod-bag-14.jpg', c.bag.id, 4.5, 65, 5_300_000),
     P('p-scarf-1', 'شال گردن ابریشمی زنانه', 'silk-scarf-women', 'شال گردن ابریشمی با نقش‌های ظریف و لطافت بالا، مناسب فصل سرد', 720000, '/images/cat-accessory.jpg', c.accessory.id, 4.6, 95, 6_200_000),
     P('p-cap-1', 'کلاه کپ مردانه', 'men-cap', 'کلاه کپ مردانه با طراحی ساده و پارچه باکیفیت، مناسب استفاده روزمره', 480000, '/images/cat-accessory.jpg', c.accessory.id, 4.5, 120, 6_100_000),
+
+    // ---- New accessories (added) ----
+    P('p-glove-1', 'دستکش چرم مشکی', 'black-leather-gloves', 'دستکش چرم مشکی با آستر نرم، مناسب فصل سرد', 980000, '/images/prod-accessory-5.jpg', c.accessory.id, 4.6, 60, 6_000_000),
+    P('p-bracelet-1', 'دستبند نقره مردانه', 'silver-men-bracelet', 'دستبند نقره با زنجیر کلاسیک، مناسب استایل مردانه', 1250000, '/images/prod-accessory-6.jpg', c.accessory.id, 4.6, 55, 5_900_000),
+    P('p-tie-1', 'کراوات ابریشمی', 'silk-necktie', 'کراوات ابریشمی با طرح ظریف، مناسب محیط‌های رسمی', 680000, '/images/prod-accessory-7.jpg', c.accessory.id, 4.5, 85, 5_800_000),
+    P('p-earring-1', 'گوشواره حلقه طلا', 'gold-hoop-earrings', 'گوشواره حلقه طلا با طراحی ساده و شیک', 1450000, '/images/prod-accessory-8.jpg', c.accessory.id, 4.8, 45, 5_700_000),
+    P('p-wallet-1', 'کیف پول چرم مشکی', 'black-leather-wallet', 'کیف پول چرم مشکی با جیب‌های متعدد و دوخت محکم', 920000, '/images/prod-accessory-9.jpg', c.accessory.id, 4.5, 90, 5_600_000),
+    P('p-scarf-2', 'شال کشمیر خاکستری', 'grey-cashmere-scarf', 'شال کشمیر خاکستری با لطافت بالا، مناسب فصل زمستان', 1550000, '/images/prod-accessory-10.jpg', c.accessory.id, 4.7, 50, 5_500_000),
+    P('p-necklace-1', 'گردنبند مروارید', 'pearl-necklace', 'گردنبند مروارید طبیعی با درخشندگی ظریف', 2650000, '/images/prod-accessory-11.jpg', c.accessory.id, 4.8, 30, 5_400_000),
+    P('p-cuff-1', 'دستبند چرم سگکی', 'leather-cuff-bracelet', 'دستبند چرم با سگک فلزی، مناسب استایل اسپرت', 780000, '/images/prod-accessory-12.jpg', c.accessory.id, 4.5, 70, 5_300_000),
+    P('p-cufflink-1', 'سنجاق سرآستین طلا', 'gold-cufflinks', 'سنجاق سرآستین طلا با طراحی کلاسیک، مناسب کت وشلوار', 1150000, '/images/prod-accessory-13.jpg', c.accessory.id, 4.6, 40, 5_200_000),
+    P('p-beanie-1', 'کلاه بیسبال آبی', 'blue-beanie-hat', 'کلاه بیسبال آبی با بافت گرم، مناسب فصل زمستان', 520000, '/images/prod-accessory-14.jpg', c.accessory.id, 4.5, 100, 5_100_000),
   ];
 
   const B = (id: string, title: string, slug: string, excerpt: string, content: string, image: string, author: string, offset: number): Row => ({
