@@ -1,6 +1,6 @@
 import { lazy, Suspense, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShoppingBag, Check } from 'lucide-react';
+import { ShoppingBag, Check, Clapperboard, Pause, Play } from 'lucide-react';
 import { useProductStore, HOODIE_PRODUCT, PRESET_VIEWS } from '../../store/useProductStore';
 import { controlsBridge } from './controlsBridge';
 import ColorSelector from './ColorSelector';
@@ -48,6 +48,15 @@ export default function HoodieHero() {
   const addToCart = useProductStore((s) => s.addToCart);
   const cartCount = useProductStore((s) => s.cartCount);
   const setFullscreen = useProductStore((s) => s.setFullscreen);
+  const filmMode = useProductStore((s) => s.filmMode);
+  const setFilmMode = useProductStore((s) => s.setFilmMode);
+
+  const handleFilm = () => {
+    setFilmMode(!filmMode);
+    if (!filmMode) {
+      // entering film mode
+    }
+  };
 
   const handleAddToCart = () => {
     if (!size) {
@@ -101,9 +110,58 @@ export default function HoodieHero() {
               onFullscreen={handleFullscreen}
             />
           </div>
-          <div className="absolute right-3 top-3 z-10">
+          <div className="absolute right-3 top-3 z-10 flex gap-2">
+            {/* Film mode toggle */}
+            <motion.button
+              whileTap={{ scale: 0.9 }}
+              onClick={handleFilm}
+              title={filmMode ? 'پایان فیلم' : 'پخش به‌صورت فیلم'}
+              className={`flex items-center gap-1.5 rounded-xl px-3 py-2 text-xs font-bold transition-all ${
+                filmMode
+                  ? 'bg-red-500 text-white shadow-lg'
+                  : 'border border-white/10 bg-dark-900/80 text-white/80 backdrop-blur-md hover:bg-white/10'
+              }`}
+            >
+              <Clapperboard className="h-4 w-4" />
+              {filmMode ? <Pause className="h-3.5 w-3.5" /> : <Play className="h-3.5 w-3.5" />}
+              {filmMode ? 'پایان فیلم' : 'فیلم'}
+            </motion.button>
             <FullscreenButton />
           </div>
+
+          {/* Cinematic letterbox + title */}
+          <AnimatePresence>
+            {filmMode && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="pointer-events-none absolute inset-0 z-[5] flex flex-col justify-between"
+              >
+                <div className="h-14 bg-black sm:h-16" />
+                <div className="h-14 bg-black sm:h-16" />
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          {/* Film title */}
+          <AnimatePresence>
+            {filmMode && (
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 12 }}
+                className="pointer-events-none absolute left-1/2 top-1/2 z-[6] -translate-x-1/2 -translate-y-1/2 text-center"
+              >
+                <div className="rounded-xl bg-black/60 px-6 py-3 backdrop-blur-sm border border-white/10">
+                  <p className="text-sm font-bold tracking-wide text-white sm:text-lg">
+                    مُدارا · {HOODIE_PRODUCT.name}
+                  </p>
+                  <p className="mt-0.5 text-[10px] text-amber-400 sm:text-xs">فیلم محصول · نمای ۳۶۰°</p>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
 
           {/* active view label */}
           <AnimatePresence>

@@ -28,6 +28,7 @@ interface ProductState {
   activeView: string | null;
   selectedHotspot: string | null;
   fullscreen: boolean;
+  filmMode: boolean;
   cartCount: number;
   setColor: (c: HoodieColorOption) => void;
   setSize: (s: ProductSize) => void;
@@ -35,6 +36,7 @@ interface ProductState {
   setActiveView: (v: string | null) => void;
   setSelectedHotspot: (id: string | null) => void;
   setFullscreen: (b: boolean) => void;
+  setFilmMode: (b: boolean) => void;
   addToCart: () => void;
 }
 
@@ -45,6 +47,7 @@ export const useProductStore = create<ProductState>((set) => ({
   activeView: null,
   selectedHotspot: null,
   fullscreen: false,
+  filmMode: false,
   cartCount: 0,
   setColor: (c) => set({ color: c, activeView: null }),
   setSize: (s) => set({ size: s }),
@@ -52,6 +55,7 @@ export const useProductStore = create<ProductState>((set) => ({
   setActiveView: (v) => set({ activeView: v }),
   setSelectedHotspot: (id) => set({ selectedHotspot: id }),
   setFullscreen: (b) => set({ fullscreen: b }),
+  setFilmMode: (b) => set({ filmMode: b }),
   addToCart: () =>
     set((s) => ({
       cartCount: s.cartCount + s.quantity,

@@ -8,21 +8,44 @@ import { Hotspots } from './Hotspots';
 import { useProductStore, PRESET_VIEWS } from '../../store/useProductStore';
 import { controlsBridge } from './controlsBridge';
 
+// Cinematic film sequence: smooth orbit around the hoodie through key views.
+const FILM_KEYS = ['front', 'front45', 'right', 'back45', 'back', 'left', 'hood', 'model', 'pocket', 'front'];
+const FILM_VIEW = 2.4; // seconds per view
+
 function CameraRig() {
   const activeView = useProductStore((s) => s.activeView);
+  const filmMode = useProductStore((s) => s.filmMode);
   const { camera } = useThree();
   const controlsRef = useRef<any>(null);
   const anim = useRef<{ pos: THREE.Vector3; tgt: THREE.Vector3 } | null>(null);
   const fromPos = useRef(new THREE.Vector3(0, 1.1, 4.6));
   const fromTgt = useRef(new THREE.Vector3(0, 1.1, 0));
   const lastView = useRef(activeView);
+  const lastFilm = useRef(filmMode);
+  const film = useRef({ playing: false, i: 0, t: 0, idle: 0 });
 
   // register controls in the bridge
-  useFrame(() => {
+  useFrame((_state, delta) => {
     if (controlsRef.current) {
       controlsBridge.setControls(controlsRef.current);
       controlsBridge.setAutoRotate(controlsBridge.autoRotate);
     }
+
+    // ---- Film mode drives the camera ----
+    if (film.current.playing) {
+      const f = film.current;
+      f.t += delta;
+      if (f.t >= FILM_VIEW) {
+        f.t = 0;
+        f.i = (f.i + 1) % FILM_KEYS.length;
+        const v = PRESET_VIEWS[FILM_KEYS[f.i]];
+        anim.current = {
+          pos: new THREE.Vector3(...v.position),
+          tgt: new THREE.Vector3(...v.target),
+        };
+      }
+    }
+
     if (anim.current) {
       const ease = 1 - Math.pow(0.001, 1 / 60);
       fromPos.current.lerp(anim.current.pos, ease);
@@ -36,9 +59,27 @@ function CameraRig() {
     }
   });
 
+  // detect film mode toggles
+  if (lastFilm.current !== filmMode) {
+    lastFilm.current = filmMode;
+    if (filmMode) {
+      // start the film from the current camera position
+      film.current.playing = true;
+      film.current.i = 0;
+      film.current.t = 0;
+      const v = PRESET_VIEWS[FILM_KEYS[0]];
+      anim.current = {
+        pos: new THREE.Vector3(...v.position),
+        tgt: new THREE.Vector3(...v.target),
+      };
+    } else {
+      film.current.playing = false;
+    }
+  }
+
   if (lastView.current !== activeView) {
     lastView.current = activeView;
-    if (activeView && PRESET_VIEWS[activeView]) {
+    if (activeView && PRESET_VIEWS[activeView] && !film.current.playing) {
       const v = PRESET_VIEWS[activeView];
       fromPos.current.copy(camera.position);
       fromTgt.current.copy(controlsRef.current?.target ?? new THREE.Vector3(0, 1.1, 0));
@@ -49,7 +90,7 @@ function CameraRig() {
     }
   }
 
-  return <OrbitControls ref={controlsRef} makeDefault enableDamping dampingFactor={0.08} minDistance={1.5} maxDistance={9} />;
+  return <OrbitControls ref={controlsRef} makeDefault enableDamping dampingFactor={0.08} minDistance={1.5} maxDistance={9} enableZoom={!film.current.playing} enableRotate={!film.current.playing} />;
 }
 
 export default function HoodieCanvas({ onReady }: { onReady?: () => void }) {
