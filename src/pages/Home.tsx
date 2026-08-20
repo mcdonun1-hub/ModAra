@@ -5,7 +5,7 @@ const HoodieHero = lazy(() => import('../components/3d/HoodieHero'));
 import { supabase, type Product, type BlogPost, type Category } from '../lib/supabase';
 import { formatDate, assetUrl } from '../lib/format';
 import ProductCard from '../components/ProductCard';
-import Hero3DSwitcher from '../components/hero3d/Hero3DSwitcher';
+import HeroSlider from '../components/HeroSlider';
 
 type HomeProps = {
   onNavigate: (view: string, param?: string) => void;
@@ -82,8 +82,8 @@ export default function Home({ onNavigate }: HomeProps) {
 
   return (
     <div>
-      {/* Hero 3D (switcher between WebGL, CSS carousel, parallax, ribbon) */}
-      <Hero3DSwitcher onNavigate={onNavigate} />
+      {/* Hero Slider */}
+      <HeroSlider onNavigate={onNavigate} />
 
       {/* Premium 3D hoodie configurator */}
       <section className="bg-dark-900/40 py-6">
